@@ -4,6 +4,9 @@ const styles = {
 	heading1: 'font-outfit text-3xl font-bold',
 
 	heading2: 'font-outfit text-2xl font-bold',
+
+	heading3: 'font-outfit text-xl font-bold',
+
 	paragraph:
 		'font-roboto font-normal text-black text-[18px] leading-[30.8px]',
 

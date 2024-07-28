@@ -12,7 +12,8 @@ export const theme = {
 			accentColor: '#ff822e',
 			backgroundPrimary: '#ECECEC',
 			backgroundSecondary: '#F8F8F9',
-      djoleGray: '#7e7d7d'
+
+			djoleGray: '#7e7d7d',
 		},
 		fontFamily: {
 			outfit: ['Outfit', 'sans-serif'],
@@ -21,9 +22,6 @@ export const theme = {
 		letterSpacing: {
 			custom: '0.15em',
 		},
-    backgroundImage: theme => ({
-      'custom-image': "url('./src/assets/header-produktgruppe-parker.jpg')",
-    })
 	},
 	screens: {
 		xs: '480px',

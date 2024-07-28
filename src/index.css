@@ -20,6 +20,36 @@
   -moz-osx-font-smoothing: grayscale; */
 }
 
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.custom-list {
+  @apply list-none pl-1; 
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px; 
+  margin-bottom: 6px;
+}
+
+.custom-list li::before {
+  content: url('src/assets/list-checkmark.svg'); 
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px; 
+  height: 20px; 
+}
+
+
 /* a {
   font-weight: 500;
   color: #646cff;
