@@ -1,6 +1,17 @@
 import { DownloadButton } from '../../components';
 import styles from '../../style';
 
+import bannerIMG from './../../assets/multiBase2072i-duplexparker-1-2.png';
+import NEU_schemaclip_multibase_2072i_IMG from './../../assets/NEU_schemaclip-multibase-2072i.gif';
+
+import doc1 from './../../assets/products/MultiBase2072i/58729630.pdf';
+import doc2 from './../../assets/products/MultiBase2072i/58739060.pdf';
+import doc3 from './../../assets/products/MultiBase2072i/E-Plug-In.pdf';
+// MultiBase-2072i-V2-DWG.zip
+import zip1 from './../../assets/products/MultiBase2072i/MultiBase-2072i-V2-DWG.zip';
+import zip2 from './../../assets/products/MultiBase2072i/MultiBase-2072i-V2-DXF.zip';
+import zip3 from './../../assets/products/MultiBase2072i/MultiBase-2072i-BIM.zip';
+
 const MultiBase2072i = () => {
 	return (
 		<>
@@ -8,7 +19,7 @@ const MultiBase2072i = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className="relative w-full">
 						<img
-							src="src\assets\multiBase2072i-duplexparker-1-2.png"
+							src={bannerIMG}
 							alt="MultiBase 2072i slika"
 							className="h-auto w-full object-cover"
 						></img>
@@ -123,13 +134,11 @@ const MultiBase2072i = () => {
 								</ul>
 								<img
 									className="mb-12 mt-4"
-									src="src\assets\NEU_schemaclip-multibase-2072i.gif"
+									src={NEU_schemaclip_multibase_2072i_IMG}
 									alt="animation graphic scheme multibase 2072i"
 									loading="lazy"
 								/>
 							</section>
-
-							{/* ok MultiBase 2072i  */}
 						</main>
 					</div>
 				</div>
@@ -172,27 +181,27 @@ const MultiBase2072i = () => {
 								</h2>
 								<div className="flex flex-col gap-6 py-4">
 									<DownloadButton
-										href="src/assets/pdfs/MultiBase2072i/58729630.pdf"
+										href={doc1}
 										text="Podatci o proizvodu (metrike)"
 									></DownloadButton>
 									<DownloadButton
-										href="src\assets\pdfs\MultiBase2072i\58739060.pdf"
+										href={doc2}
 										text="tender - specifikacije"
 									></DownloadButton>
 									<DownloadButton
-										href="src\assets\pdfs\MultiBase2072i\E-Plug-In.pdf"
+										href={doc3}
 										text="E-PLUG-IN.PDF"
 									></DownloadButton>
 									<DownloadButton
-										href="src\assets\pdfs\MultiBase2072i\MultiBase-2072i-V2-DWG.zip"
+										href={zip1}
 										text="MultiBase-2072i-V2-DWG.zip"
 									></DownloadButton>
 									<DownloadButton
-										href="src\assets\pdfs\MultiBase2072i\MultiBase-2072i-V2-DXF.zip"
+										href={zip2}
 										text="MultiBase-2072i-V2-DXF.zip"
 									></DownloadButton>
 									<DownloadButton
-										href="src\assets\pdfs\MultiBase2072i\MultiBase-2072i-BIM.zip"
+										href={zip3}
 										text="MultiBase-2072i-BIM.zip"
 									></DownloadButton>
 								</div>
