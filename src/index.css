@@ -41,7 +41,7 @@ img {
 }
 
 .custom-list li::before {
-  content: url('src/assets/list-checkmark.svg'); 
+  content: url('./assets/list-checkmark.svg'); 
   position: absolute;
   left: 0;
   top: 0;
