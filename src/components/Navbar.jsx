@@ -2,6 +2,10 @@ import { useState } from 'react';
 import { navLinks } from '../constants';
 import styles from '../style';
 
+import logo from './../assets/logo-klaus-multiparking.svg';
+import close from './../assets/close.svg';
+import menu from './../assets/menu.svg';
+
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 
@@ -10,7 +14,7 @@ const Navbar = () => {
 			className={`${styles.paddingX} navbar flex w-full items-center justify-between border-b-8 border-b-accentColor py-6`}
 		>
 			<img
-				src="src\assets\logo-klaus-multiparking.svg"
+				src={logo}
 				alt="multiparking logo"
 				className="mr-10 h-[32px]"
 			/>
@@ -32,9 +36,7 @@ const Navbar = () => {
 			{/* MOBILE */}
 			<div className="flex flex-1 items-center justify-end sm:hidden">
 				<img
-					src={
-						toggle ? 'src/assets/close.svg' : 'src/assets/menu.svg'
-					}
+					src={toggle ? close : menu}
 					alt="menu"
 					className="h-[18px] w-[18px] object-contain"
 					onClick={() => setToggle((prev) => !prev)}
