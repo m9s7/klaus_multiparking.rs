@@ -7,7 +7,6 @@ import NEU_schemaclip_multibase_2072i_IMG from './../../assets/NEU_schemaclip-mu
 import doc1 from './../../assets/products/MultiBase2072i/58729630.pdf';
 import doc2 from './../../assets/products/MultiBase2072i/58739060.pdf';
 import doc3 from './../../assets/products/MultiBase2072i/E-Plug-In.pdf';
-// MultiBase-2072i-V2-DWG.zip
 import zip1 from './../../assets/products/MultiBase2072i/MultiBase-2072i-V2-DWG.zip';
 import zip2 from './../../assets/products/MultiBase2072i/MultiBase-2072i-V2-DXF.zip';
 import zip3 from './../../assets/products/MultiBase2072i/MultiBase-2072i-BIM.zip';
@@ -34,7 +33,9 @@ const MultiBase2072i = () => {
 					<div className={`${styles.paddingY} relative`}>
 						<main className="p-2">
 							<section className="mb-8">
-								<h2 className={`${styles.heading1}`}>
+								<h2
+									className={`${styles.heading1} sm:text-3xl`}
+								>
 									NAJKONFORNIJI PREMIUM PARKER
 								</h2>
 								<p className={`${styles.paragraph} mt-4`}>
@@ -121,23 +122,28 @@ const MultiBase2072i = () => {
 								<h2 className={`${styles.heading2}`}>
 									PRIMENA multiparking sistema
 								</h2>
-								<ul
-									className={`${styles.paragraph} custom-list mt-4`}
-								>
-									<li>Stambene zgrade i poslovni objekti</li>
-									<li>Porodične kuće</li>
-									<li>Podzemni parking</li>
-									<li>
-										Parkirališta, hoteli, samostalne garaže
-									</li>
-									<li>Spoljna montaža u dvorištima</li>
-								</ul>
-								<img
-									className="mb-12 mt-4"
-									src={NEU_schemaclip_multibase_2072i_IMG}
-									alt="animation graphic scheme multibase 2072i"
-									loading="lazy"
-								/>
+								<div className="md:flex md:justify-between">
+									<ul
+										className={`${styles.paragraph} custom-list mt-4`}
+									>
+										<li>
+											Stambene zgrade i poslovni objekti
+										</li>
+										<li>Porodične kuće</li>
+										<li>Podzemni parking</li>
+										<li>
+											Parkirališta, hoteli, samostalne
+											garaže
+										</li>
+										<li>Spoljna montaža u dvorištima</li>
+									</ul>
+									<img
+										className="mb-12 mt-4 md:w-1/3 md:max-w-none"
+										src={NEU_schemaclip_multibase_2072i_IMG}
+										alt="animation graphic scheme multibase 2072i"
+										loading="lazy"
+									/>
+								</div>
 							</section>
 						</main>
 					</div>
@@ -179,7 +185,7 @@ const MultiBase2072i = () => {
 									MultiBase 2072i Preuzimanja
 									<hr className="h-1 bg-accentColor"></hr>
 								</h2>
-								<div className="flex flex-col gap-6 py-4">
+								<div className="flex flex-col gap-6 py-4 lg:flex-row lg:flex-wrap">
 									<DownloadButton
 										href={doc1}
 										text="Podatci o proizvodu (metrike)"
