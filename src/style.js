@@ -10,6 +10,9 @@ const styles = {
 	paragraph:
 		'font-roboto font-normal text-black text-[18px] leading-[30.8px]',
 
+	donwloadBtn:
+		'font-roboto font-normal text-white text-[18px] leading-[30.8px] bg-dwldBtnGray px-4 py-1 uppercase',
+
 	flexCenter: 'flex justify-center items-center',
 	flexStart: 'flex justify-center items-start',
 

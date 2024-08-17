@@ -14,6 +14,7 @@ export const theme = {
 			backgroundSecondary: '#F8F8F9',
 
 			djoleGray: '#7e7d7d',
+			dwldBtnGray: '#23283C',
 		},
 		fontFamily: {
 			outfit: ['Outfit', 'sans-serif'],
