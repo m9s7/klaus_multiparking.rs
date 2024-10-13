@@ -1,4 +1,6 @@
 import styles from '../../style';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 
 const Naslovna = () => {
 	return (
@@ -73,7 +75,8 @@ const Naslovna = () => {
 								</li>
 								<li>
 									U zavisnosti od modela broj parking mesta
-									može da se duplira (MultiBase 2072i,
+									može da se duplira (
+										<Link style={{color: "orange"}} to="/MultiBase2072i">MultiBase 2072i</Link>,
 									MultiBase 2078i, MultiBase 2042, MultiBase
 									U20, SingleVario 2061) ili utrostruči
 									(MultiBase G63). U slučaju ograničenog
