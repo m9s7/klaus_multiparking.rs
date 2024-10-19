@@ -1,5 +1,5 @@
 import styles from '../../style';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Naslovna = () => {
@@ -76,12 +76,16 @@ const Naslovna = () => {
 								<li>
 									U zavisnosti od modela broj parking mesta
 									može da se duplira (
-										<Link style={{color: "orange"}} to="/MultiBase2072i">MultiBase 2072i</Link>,
-									MultiBase 2078i, MultiBase 2042, MultiBase
-									U20, SingleVario 2061) ili utrostruči
-									(MultiBase G63). U slučaju ograničenog
+									<Link style={{color: "#FF6F00"}} to="/MultiBase2072i">MultiBase 2072i</Link>,{' '}
+									<Link style={{color: "#FF6F00"}} to="/MultiBase2078i">MultiBase 2078i</Link>,{' '}
+									<Link style={{color: "#FF6F00"}} to="/MultiBase2042">MultiBase 2042</Link>,{' '}
+									<Link style={{color: "#FF6F00"}} to="/MultiBaseU20">MultiBase U20</Link>,{' '}
+									<Link style={{color: "#FF6F00"}} to="/SingleVario2061">SingleVario 2061</Link>{' '} 
+									ili utrostruči (
+									<Link style={{color: "#FF6F00"}} to="/MultiBaseG63">MultiBase G63</Link>
+									). U slučaju ograničenog
 									prostora takodje nudimo platformu za jedan
-									automobil (MultiBase U10).
+									automobil (<Link style={{color: "#FF6F00"}} to="/MultiBaseU10">MultiBase U10</Link>).
 								</li>
 								<li>
 									Vrhunski proizvodi od vodećeg proizvođača i
@@ -97,7 +101,7 @@ const Naslovna = () => {
 								<li>
 									Takođe se može naknadno ugraditi u
 									zavisnosti od strukturnih uslova
-									(SingleVario 2061).
+									(<Link style={{color: "#FF6F00"}} to="/SingleVario2061">SingleVario 2061</Link>).
 								</li>
 								<li>
 									Stručna podrška i pomoć prilikom planiranja
@@ -150,7 +154,7 @@ const Naslovna = () => {
 								frameBorder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								referrerPolicy="strict-origin-when-cross-origin"
-								allowfullscreen
+								allowFullScreen
 							></iframe>
 						</section>
 

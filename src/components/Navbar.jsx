@@ -6,6 +6,8 @@ import logo from './../assets/logo-klaus-multiparking.svg';
 import close from './../assets/close.svg';
 import menu from './../assets/menu.svg';
 
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 
@@ -13,11 +15,13 @@ const Navbar = () => {
 		<nav
 			className={`${styles.paddingX} navbar flex w-full items-center justify-between border-b-8 border-b-accentColor py-6`}
 		>
-			<img
-				src={logo}
-				alt="multiparking logo"
-				className="mr-10 h-[32px]"
-			/>
+			<Link to="/">
+				<img
+					src={logo}
+					alt="multiparking logo"
+					className="mr-10 h-[32px]"
+				/>
+			</Link>
 
 			{/* DESKTOP */}
 			<ul className="hidden flex-1 list-none items-center justify-end sm:flex">

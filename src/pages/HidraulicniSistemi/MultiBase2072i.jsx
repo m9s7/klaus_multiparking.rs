@@ -6,7 +6,7 @@ import NEU_schemaclip_multibase_2072i_IMG from './../../assets/NEU_schemaclip-mu
 
 import doc1 from './../../assets/products/MultiBase2072i/58729630.pdf';
 import doc2 from './../../assets/products/MultiBase2072i/58739060.pdf';
-import doc3 from './../../assets/products/MultiBase2072i/E-Plug-In.pdf';
+import doc3 from './../../assets/products/E-Plug-In.pdf';
 import zip1 from './../../assets/products/MultiBase2072i/MultiBase-2072i-V2-DWG.zip';
 import zip2 from './../../assets/products/MultiBase2072i/MultiBase-2072i-V2-DXF.zip';
 import zip3 from './../../assets/products/MultiBase2072i/MultiBase-2072i-BIM.zip';
@@ -61,7 +61,7 @@ const MultiBase2072i = () => {
 									className={`${styles.paragraph} mt-4 font-semibold italic`}
 								>
 									Sa elektro-hidrauličnim sinhronizacionim
-									sistemom, Multibase 2078i je
+									sistemom, Multibase 2072i je
 									<span className="rounded bg-accentColor">
 										{' '}
 										ekološki prihvatljiviji, zahteva manje
@@ -160,12 +160,12 @@ const MultiBase2072i = () => {
 								</h2>
 								<iframe
 									className="mt-4 aspect-video w-full"
-									src="https://www.youtube-nocookie.com/embed/rz3qLVEmOEY?si=lr4O951gda4q6Zyk"
+									src="https://www.youtube.com/embed/MozBU9We814"
 									title="YouTube video player"
 									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 									referrerPolicy="strict-origin-when-cross-origin"
-									allowfullscreen
+									allowFullScreen
 								></iframe>
 							</section>
 							<section className="mb-8">
