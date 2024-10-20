@@ -50,20 +50,6 @@ const MultiBaseG63 = () => {
                                     Možete unaprediti vaš MultiBase G63 sa našom dodatnom opremom.
 								</p>
 
-								{/* <p
-									className={`${styles.paragraph} mt-4 font-semibold italic`}
-								>
-									Sa elektro-hidrauličnim sinhronizacionim
-									sistemom, Multibase G63 je
-									<span className="rounded bg-accentColor">
-										{' '}
-										ekološki prihvatljiviji, zahteva manje
-										održavanja i sveukupno je ekonomičniji{' '}
-									</span>
-									od prethodnih sistema sa mehaničkom
-									sinhronizacijom.
-								</p> */}
-
 							</section>
 
 							<section className="mb-8">

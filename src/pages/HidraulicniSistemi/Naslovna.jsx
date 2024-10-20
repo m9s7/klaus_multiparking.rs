@@ -6,7 +6,6 @@ const Naslovna = () => {
 	return (
 		<div className={`${styles.paddingX} ${styles.flexCenter}`}>
 			<div className={`${styles.boxWidth}`}>
-				{/*Other components*/}
 
 				<div className="relative w-full">
 					<img
@@ -255,369 +254,408 @@ const Naslovna = () => {
 							<p className={`${styles.paragraph} mt-4`}>
 								Naš asortiman proizvoda uključuje:
 							</p>
+							<h3
+								className={`${styles.heading3} mt-4 text-accentColor underline`}
+							>
+								<Link style={{color: "#FF6F00"}} to="/MultiBase2072i">MultiBase 2072i</Link>
+							</h3>
+							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
+								<div className='lg:w-3/5 mt-4'>
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Omogućava horizontalno parkiranje na svim
+											nivoima parkiranja (za optimalno
+											iskorišćenje prostora, automobili se
+											parkiraju horizontalno jedan iznad drugog
+											podizanjem i spuštanjem parking nivoa
+											horizontalno)
+										</li>
+										<li>
+											Udvostručava broj parking mesta putem
+											jednostruke platforme (2 automobila) ili
+											dvostruke platforme (4 automobila)
+										</li>
+										<li>Za nezavisno parkiranje sa jamom</li>
+										<li>
+											Maksimalna udobnost i komfor prilikom
+											ulaska/izlaska iz vozila
+										</li>
+										<li>Maksimalna visina automobila 215 cm</li>
+										<li>Takođe dostupno kao sistem na otvorenom</li>
+										<li>
+											Maksimalno opterećenje: 2,6 t sa
+											jednostrukom platformom/dvostrukom
+											platformom ili 3,0 t sa jednostrukom
+											platformom
+										</li>
+										<li>
+											Kompatibilno sa stanicama za punjenje
+											električnih vozila
+										</li>
+										<li>
+											<strong>Pogodno za:</strong> stambene i
+											poslovne zgrade, hotele, kao i porodične
+											kuće i stambene zgrade.
+										</li>
+									</ul>
+								</div>
+								<img
+									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+									src="src\assets\NEU_schemaclip-multibase-2072i.gif"
+									alt="animation graphic scheme multibase 2072i"
+									loading="lazy"
+								/>
+							</div>
 
 							<h3
 								className={`${styles.heading3} mt-4 text-accentColor underline`}
 							>
-								MultiBase 2072i
+								<Link style={{color: "#FF6F00"}} to="/MultiBase2078i">MultiBase 2078i</Link>
 							</h3>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Omogućava horizontalno parkiranje na svim
-									nivoima parkiranja (za optimalno
-									iskorišćenje prostora, automobili se
-									parkiraju horizontalno jedan iznad drugog
-									podizanjem i spuštanjem parking nivoa
-									horizontalno)
-								</li>
-								<li>
-									Udvostručava broj parking mesta putem
-									jednostruke platforme (2 automobila) ili
-									dvostruke platforme (4 automobila)
-								</li>
-								<li>Za nezavisno parkiranje sa jamom</li>
-								<li>
-									Maksimalna udobnost i komfor prilikom
-									ulaska/izlaska iz vozila
-								</li>
-								<li>Maksimalna visina automobila 215 cm</li>
-								<li>Takođe dostupno kao sistem na otvorenom</li>
-								<li>
-									Maksimalno opterećenje: 2,6 t sa
-									jednostrukom platformom/dvostrukom
-									platformom ili 3,0 t sa jednostrukom
-									platformom
-								</li>
-								<li>
-									Kompatibilno sa stanicama za punjenje
-									električnih vozila
-								</li>
-								<li>
-									<strong>Pogodno za:</strong> stambene i
-									poslovne zgrade, hotele, kao i porodične
-									kuće i stambene zgrade.
-								</li>
-							</ul>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-2072i.gif"
-								alt="animation graphic scheme multibase 2072i"
-								loading="lazy"
-							/>
+							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
+								<div className='lg:w-3/5 mt-4'>
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Udvostručava broj dostupnih parking mesta
+											putem jednostruke platforme (2 automobila)
+											ili dvostruke platforme (4 automobila)
+										</li>
+										<li>
+											Ušteda prostora zahvaljujući potrebnoj
+											visini za instalaciju nižom za 30 cm
+										</li>
+										<li>Za nezavisno parkiranje</li>
+										<li>
+											Udoban ulazak i izlazak zahvaljujući
+											izbočenim čeličnim stubovima
+										</li>
+										<li>Za automobile do 215 cm visine</li>
+										<li>
+											Maksimalno opterećenje: 2,6 t sa
+											jednostrukom platformom/dvostrukom
+											platformom ili 3,0 t sa jednostrukom
+											platformom
+										</li>
+										<li>
+											Posebno ekološka i niskoodržavajuća opcija
+											zahvaljujući elektro-hidrauličnom sistem za
+											sinhronizaciju kontrole
+										</li>
+										<li>
+											Kompatibilno sa stanicama za punjenje
+											električnih vozila
+										</li>
+										<li>
+											<strong>Pogodno za:</strong> stambene i
+											poslovne zgrade, kao i porodične kuće i
+											stambene zgrade.
+										</li>
+									</ul>
+								</div>
+								<img
+									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+									src="src\assets\NEU_schemaclip-multibase-2078i.gif"
+									alt="animation graphic scheme multibase 2078i"
+									loading="lazy"
+								/>
+							</div>
 
 							<h3
 								className={`${styles.heading3} mt-4 text-accentColor underline`}
 							>
-								MultiBase 2078i
+								<Link style={{color: "#FF6F00"}} to="/MultiBase2042">MultiBase 2042</Link>
 							</h3>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Udvostručava broj dostupnih parking mesta
-									putem jednostruke platforme (2 automobila)
-									ili dvostruke platforme (4 automobila)
-								</li>
-								<li>
-									Ušteda prostora zahvaljujući potrebnoj
-									visini za instalaciju nižom za 30 cm
-								</li>
-								<li>Za nezavisno parkiranje</li>
-								<li>
-									Udoban ulazak i izlazak zahvaljujući
-									izbočenim čeličnim stubovima
-								</li>
-								<li>Za automobile do 215 cm visine</li>
-								<li>
-									Maksimalno opterećenje: 2,6 t sa
-									jednostrukom platformom/dvostrukom
-									platformom ili 3,0 t sa jednostrukom
-									platformom
-								</li>
-								<li>
-									Posebno ekološka i niskoodržavajuća opcija
-									zahvaljujući elektro-hidrauličnom sistem za
-									sinhronizaciju kontrole
-								</li>
-								<li>
-									Kompatibilno sa stanicama za punjenje
-									električnih vozila
-								</li>
-								<li>
-									<strong>Pogodno za:</strong> stambene i
-									poslovne zgrade, kao i porodične kuće i
-									stambene zgrade.
-								</li>
-							</ul>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-2078i.gif"
-								alt="animation graphic scheme multibase 2078i"
-								loading="lazy"
-							/>
+							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
+								<div className='lg:w-3/5 mt-4'>
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Udvostručuje broj parking mesta u okviru
+											iste površine
+										</li>
+										<li>
+											Posebno štedi prostor sa malom dubinom jame
+											i visinom ugradnje
+										</li>
+										<li>Za nezavisno parkiranje</li>
+										<li>
+											Dostupan sa jednostrukom platformom (2
+											automobila) ili dvostrukom platformom (4
+											automobila)
+										</li>
+										<li>Maksimalna visina automobila 154 cm</li>
+										<li>
+											Maksimalno opterećenje: 2,0 t po parking
+											mestu
+										</li>
+										<li>
+											<strong>Pogodno za:</strong> stambene i
+											poslovne zgrade kao i porodične kuće i
+											stambene zgrade.
+										</li>
+									</ul>
+								</div>
+								<img
+									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+									src="src\assets\NEU_schemaclip-multibase-2042.gif"
+									alt="animation graphic scheme multibase 2042"
+									loading="lazy"
+								/>
+							</div>
 							<h3
 								className={`${styles.heading3} mt-4 text-accentColor underline`}
 							>
-								MultiBase 2042
+								<Link style={{color: "#FF6F00"}} to="/MultiBaseG63">MultiBase G63</Link>
 							</h3>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Udvostručuje broj parking mesta u okviru
-									iste površine
-								</li>
-								<li>
-									Posebno štedi prostor sa malom dubinom jame
-									i visinom ugradnje
-								</li>
-								<li>Za nezavisno parkiranje</li>
-								<li>
-									Dostupan sa jednostrukom platformom (2
-									automobila) ili dvostrukom platformom (4
-									automobila)
-								</li>
-								<li>Maksimalna visina automobila 154 cm</li>
-								<li>
-									Maksimalno opterećenje: 2,0 t po parking
-									mestu
-								</li>
-								<li>
-									<strong>Pogodno za:</strong> stambene i
-									poslovne zgrade kao i porodične kuće i
-									stambene zgrade.
-								</li>
-							</ul>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-2042.gif"
-								alt="animation graphic scheme multibase 2042"
-								loading="lazy"
-							/>
+							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
+								<div className='lg:w-3/5 mt-4'>
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Utrostručuje dostupan prostor za parkiranje
+											(do 6 parking mesta)
+										</li>
+										<li>Za nezavisno parkiranje</li>
+										<li>
+											Horizontalno parkiranje na svim nivoima
+											parkiranja
+										</li>
+										<li>
+											Sa jednostrukom platformom (3 automobila)
+											ili dvostrukom platformom (6 automobila)
+										</li>
+										<li>Maksimalna visina vozila 170 cm</li>
+										<li>Takođe pogodno kao sistem na otvorenom</li>
+										<li>
+											Maksimalno opterećenje: maks. 2.0 t po
+											parking mestu ili opciono maks. 2.5 t na
+											jednostrukoj platformi
+										</li>
+										<li>
+											<strong>Pogodno za:</strong> stambene i
+											poslovne zgrade, hotele, kao i porodične
+											kuće i stambene zgrade.
+										</li>
+									</ul>
+								</div>
+									<img
+										className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+										src="src\assets\NEU_schemaclip-multibase-g63.gif"
+										alt="animation graphic scheme multibase g63"
+										loading="lazy"
+									/>
+							</div>
 							<h3
 								className={`${styles.heading3} mt-4 text-accentColor underline`}
 							>
-								MultiBase G63
+								<Link style={{color: "#FF6F00"}} to="/MultiBaseU10">MultiBase U10</Link>{' '}/
+								<Link style={{color: "#FF6F00"}} to="/MultiBaseU20">MultiBase U20</Link>{' '}
 							</h3>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Utrostručuje dostupan prostor za parkiranje
-									(do 6 parking mesta)
-								</li>
-								<li>Za nezavisno parkiranje</li>
-								<li>
-									Horizontalno parkiranje na svim nivoima
-									parkiranja
-								</li>
-								<li>
-									Sa jednostrukom platformom (3 automobila)
-									ili dvostrukom platformom (6 automobila)
-								</li>
-								<li>Maksimalna visina vozila 170 cm</li>
-								<li>Takođe pogodno kao sistem na otvorenom</li>
-								<li>
-									Maksimalno opterećenje: maks. 2.0 t po
-									parking mestu ili opciono maks. 2.5 t na
-									jednostrukoj platformi
-								</li>
-								<li>
-									<strong>Pogodno za:</strong> stambene i
-									poslovne zgrade, hotele, kao i porodične
-									kuće i stambene zgrade.
-								</li>
-							</ul>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-g63.gif"
-								alt="animation graphic scheme multibase g63"
-								loading="lazy"
-							/>
+							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
+								<div className='lg:w-3/5 mt-4'>
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Skoro nevidljiv jer je skoro potpuno
+											potopljen u zemlju
+										</li>
+										<li>
+											Vizuelne opcije dizajna za gornju parking
+											platformu (npr. popločavanje ili zelenilo)
+										</li>
+										<li>
+											Gornja platforma je nivu sa zemljom (može se
+											voziti preko nje)
+										</li>
+										<li>
+											MultiBase U10 jedna platforma za 1
+											automobil, MultiBase U20 jedna platforma za
+											2 automobila
+										</li>
+										<li>Horizontalni pristup parking nivoima</li>
+										<li>
+											Povećava vrednost imovine kroz dodatni
+											koristan prostor
+										</li>
+										<li>Za nezavisno parkiranje</li>
+										<li>Maksimalna visina vozila 200 cm</li>
+										<li>
+											Maksimalno opterećenje: 2.0 t po parking
+											mestu, opciono 2.6 t
+										</li>
+										<li>
+											<strong>Pogodno za:</strong> zelene površine
+											u stambenim i poslovnim kompleksima, hotele,
+											kao i porodične kuće i stambene zgrade.
+										</li>
+									</ul>
+								</div>
+								<div className='lg:w-2/5 mb-12 mt-4'>
+									<img
+										className="h-auto object-contain"
+										src="src\assets\NEU_schemaclip-multibase-u10.gif"
+										alt="animation graphic scheme multibase u10"
+										loading="lazy"
+									/>
+									<img
+										className="h-auto object-contain"
+										src="src\assets\NEU_schemaclip-multibase-u20.gif"
+										alt="animation graphic scheme multibase u20"
+										loading="lazy"
+									/>
+								</div>
+							</div>
 							<h3
 								className={`${styles.heading3} mt-4 text-accentColor underline`}
 							>
-								MultiBase U10 / MultiBase U20
+								<Link style={{color: "#FF6F00"}} to="/SingleVario2061">SingleVario 2061</Link>
 							</h3>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Skoro nevidljiv jer je skoro potpuno
-									potopljen u zemlju
-								</li>
-								<li>
-									Vizuelne opcije dizajna za gornju parking
-									platformu (npr. popločavanje ili zelenilo)
-								</li>
-								<li>
-									Gornja platforma je nivu sa zemljom (može se
-									voziti preko nje)
-								</li>
-								<li>
-									MultiBase U10 jedna platforma za 1
-									automobil, MultiBase U20 jedna platforma za
-									2 automobila
-								</li>
-								<li>Horizontalni pristup parking nivoima</li>
-								<li>
-									Povećava vrednost imovine kroz dodatni
-									koristan prostor
-								</li>
-								<li>Za nezavisno parkiranje</li>
-								<li>Maksimalna visina vozila 200 cm</li>
-								<li>
-									Maksimalno opterećenje: 2.0 t po parking
-									mestu, opciono 2.6 t
-								</li>
-								<li>
-									<strong>Pogodno za:</strong> zelene površine
-									u stambenim i poslovnim kompleksima, hotele,
-									kao i porodične kuće i stambene zgrade.
-								</li>
-							</ul>
-							<img
-								className="mb-4 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-u10.gif"
-								alt="animation graphic scheme multibase u10"
-								loading="lazy"
-							/>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-u20.gif"
-								alt="animation graphic scheme multibase u20"
-								loading="lazy"
-							/>
-							<h3
-								className={`${styles.heading3} mt-4 text-accentColor underline`}
-							>
-								SingleVario 2061
-							</h3>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Udvostručuje parking mesta u dvospratnoj
-									garaži
-								</li>
-								<li>Montaža bez jame</li>
-								<li>Podesivo po visini</li>
-								<li>Za zavisno parkiranje</li>
-								<li>Sa jednom platformom za 2 automobila</li>
-								<li>Maksimalna visina vozila 200 cm</li>
-								<li>
-									Rastojanje između platformi moguće
-									podešavati
-								</li>
-								<li>Horizontalni pristup parking nivoima</li>
-								<li>
-									<strong>Pogodno za:</strong> stambene i
-									poslovne zgrade, hotele, porodične kuće i
-									stambene zgrade, kao i naknadnu ugradnju.
-								</li>
-							</ul>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-singlevario-2061.gif"
-								alt="animation graphic scheme singlevario 2061"
-								loading="lazy"
-							/>
+							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
+								<div className='lg:w-3/5 mt-4'>
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Udvostručuje parking mesta u dvospratnoj
+											garaži
+										</li>
+										<li>Montaža bez jame</li>
+										<li>Podesivo po visini</li>
+										<li>Za zavisno parkiranje</li>
+										<li>Sa jednom platformom za 2 automobila</li>
+										<li>Maksimalna visina vozila 200 cm</li>
+										<li>
+											Rastojanje između platformi moguće
+											podešavati
+										</li>
+										<li>Horizontalni pristup parking nivoima</li>
+										<li>
+											<strong>Pogodno za:</strong> stambene i
+											poslovne zgrade, hotele, porodične kuće i
+											stambene zgrade, kao i naknadnu ugradnju.
+										</li>
+									</ul>
+								</div>
+								<img
+									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+									src="src\assets\NEU_schemaclip-singlevario-2061.gif"
+									alt="animation graphic scheme singlevario 2061"
+									loading="lazy"
+								/>
+							</div>
 							<h3 className={`${styles.heading3} mt-4`}>
 								<span className="text-accentColor underline">
-									MultiBase 2072i
+									<Link style={{color: "#FF6F00"}} to="/MultiBase2072iSpecial">MultiBase 2072i</Link>
 								</span>{' '}
 								- platforme za osobe sa posebnim potrebama
 							</h3>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Gornja parking platforma označena je kao
-									parking mesto za osobe sa invaliditetom u
-									skladu sa nemačkim propisima koji regulišu
-									parking objekte (&quot;GaVO&quot;) i DIN
-									18025 &quot;Konstrukcija bez barijera -
-									principi planiranja&quot; (širina korisne
-									platforme: 350 cm)
-								</li>
-								<li>
-									Visokokvalitetna AluLongLife površina koja
-									je lakša za hodanje i pristupanje
-								</li>
-								<li>Za horizontalni pristup parking nivoima</li>
-								<li>
-									Poseban kontrolni uređaj osigurava da se
-									kontrolni ključ može ukloniti samo kada je
-									gornje parking mesto za osobe sa
-									invaliditetom u poziciji ulaska
-								</li>
-								<li>
-									<strong>Pogodno za:</strong> garaže kuća i
-									stambenih zgrada, poslovne zgrade i stambene
-									ili poslovne zgrade.
-								</li>
-							</ul>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-2072i.gif"
-								alt="animation graphic scheme multibase 2072i"
-								loading="lazy"
-							/>
+							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
+								<div className='lg:w-3/5 mt-4'>
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Gornja parking platforma označena je kao
+											parking mesto za osobe sa invaliditetom u
+											skladu sa nemačkim propisima koji regulišu
+											parking objekte (&quot;GaVO&quot;) i DIN
+											18025 &quot;Konstrukcija bez barijera -
+											principi planiranja&quot; (širina korisne
+											platforme: 350 cm)
+										</li>
+										<li>
+											Visokokvalitetna AluLongLife površina koja
+											je lakša za hodanje i pristupanje
+										</li>
+										<li>Za horizontalni pristup parking nivoima</li>
+										<li>
+											Poseban kontrolni uređaj osigurava da se
+											kontrolni ključ može ukloniti samo kada je
+											gornje parking mesto za osobe sa
+											invaliditetom u poziciji ulaska
+										</li>
+										<li>
+											<strong>Pogodno za:</strong> garaže kuća i
+											stambenih zgrada, poslovne zgrade i stambene
+											ili poslovne zgrade.
+										</li>
+									</ul>
+								</div>
+								<img
+									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+									src="src\assets\NEU_schemaclip-multibase-2072i.gif"
+									alt="animation graphic scheme multibase 2072i"
+									loading="lazy"
+								/>
+							</div>
 							<h3 className={`${styles.heading3} mt-4`}>
 								<span className="text-accentColor underline">
-									SingleVario 2061 Spolja
+									<Link style={{color: "#FF6F00"}} to="/SingleVario2061Outdoor">SingleVario 2061 Spolja</Link>
 								</span>{' '}
 								/{' '}
 								<span className="text-accentColor underline">
-									MultiBase 2072i Spolja
+									<Link style={{color: "#FF6F00"}} to="/MultiBase2072iOutdoor">MultiBase 2072i Spolja</Link>
 								</span>{' '}
 								/{' '}
 								<span className="text-accentColor underline">
-									MultiBase G63 Spolja
+									<Link style={{color: "#FF6F00"}} to="/MultiBaseG63Outdoor">MultiBase G63 Spolja</Link>
 								</span>{' '}
 							</h3>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Ovi odabrani modeli dostupni su kao sistemi
-									za spoljnu upotrebu (npr. u dvorištu ili
-									bašti)
-								</li>
-								<li>
-									Robustna, otporna tehnologija koja je
-									zaštićena od vremenskih uslova
-								</li>
-								<li>Nije potrebna skupa izgradnja garaže</li>
-								<li>
-									Udvostručuje ili utrostručuje broj parking
-									mesta na otvorenom
-								</li>
-								<li>
-									Za zavisno ili nezavisno parkiranje, u
-									zavisnosti od modela
-								</li>
-							</ul>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-singlevario-2061-outdoor.gif"
-								alt="animation graphic scheme singlevario 2061 outdoor"
-								loading="lazy"
-							/>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-2072i-outdoor.gif"
-								alt="animation graphic scheme multibase 2072i outdoor"
-								loading="lazy"
-							/>
-							<img
-								className="mb-12 mt-4"
-								src="src\assets\NEU_schemaclip-multibase-g63-outdoor.gif"
-								alt="animation graphic scheme multibase g63 outdoor"
-								loading="lazy"
-							/>
+							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
+								<div className='lg:w-3/5 mt-4'>
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Ovi odabrani modeli dostupni su kao sistemi
+											za spoljnu upotrebu (npr. u dvorištu ili
+											bašti)
+										</li>
+										<li>
+											Robustna, otporna tehnologija koja je
+											zaštićena od vremenskih uslova
+										</li>
+										<li>Nije potrebna skupa izgradnja garaže</li>
+										<li>
+											Udvostručuje ili utrostručuje broj parking
+											mesta na otvorenom
+										</li>
+										<li>
+											Za zavisno ili nezavisno parkiranje, u
+											zavisnosti od modela
+										</li>
+									</ul>
+								</div>
+								<div className='lg:flex lg:flex-col items-center lg:w-2/5'>
+									<div className='lg:flex lg:flex-row'>
+										<img
+											className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+											src="src\assets\NEU_schemaclip-singlevario-2061-outdoor.gif"
+											alt="animation graphic scheme singlevario 2061 outdoor"
+											loading="lazy"
+										/>
+										<img
+											className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+											src="src\assets\NEU_schemaclip-multibase-2072i-outdoor.gif"
+											alt="animation graphic scheme multibase 2072i outdoor"
+											loading="lazy"
+										/>
+									</div>
+									<img
+										className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
+										src="src\assets\NEU_schemaclip-multibase-g63-outdoor.gif"
+										alt="animation graphic scheme multibase g63 outdoor"
+										loading="lazy"
+									/>
+								</div>
+							</div>
 						</section>
 
 						<section className="mb-8">
