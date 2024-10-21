@@ -12,6 +12,8 @@ import { MultiBaseG63Outdoor } from './pages'
 import { SingleVario2061Outdoor } from './pages'
 import { MultiBase2072iSpecial } from './pages'
 
+import { PoluautomaticNaslovna } from './pages';
+
 import ScrollToTop from './utils/ScrollToTop';
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
@@ -36,6 +38,7 @@ const App = () => {
 					<Route path="/SingleVario2061Outdoor" element={<SingleVario2061Outdoor />} />
 					<Route path="/MultiBase2072iSpecial" element={<MultiBase2072iSpecial />} />
 
+					<Route path="/PoluautomaticNaslovna" element={<PoluautomaticNaslovna />} />
 					
 				</Routes>
 			</Router>

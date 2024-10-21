@@ -11,6 +11,8 @@ import { MultiBaseG63Outdoor } from './HidraulicniSistemi'
 import { SingleVario2061Outdoor } from './HidraulicniSistemi'
 import { MultiBase2072iSpecial } from './HidraulicniSistemi'
 
+import { PoluautomaticNaslovna } from './Poluautomatic';
+
 
 // Parkeri
 export { Naslovna as HidraulicniSistemi_Naslovna };
@@ -26,5 +28,7 @@ export { MultiBaseG63Outdoor as MultiBaseG63Outdoor };
 export { SingleVario2061Outdoor as SingleVario2061Outdoor };
 export { MultiBase2072iSpecial as MultiBase2072iSpecial };
 
+// Semi
+export {PoluautomaticNaslovna as PoluautomaticNaslovna };
 
 
