@@ -24,7 +24,7 @@ const MultiBase2042 = () => {
 						<header className="-mt-6 flex flex-col justify-center text-black">
 							<h1 className={`${styles.heading1} p-2`}>
 								<span className="rounded bg-accentColor px-1 py-1">
-									MultiBase 2042 
+									MultiBase 2042
 								</span>
 							</h1>
 						</header>
@@ -37,8 +37,12 @@ const MultiBase2042 = () => {
 								>
 									PREMIUM PARKER KOJI NAJVIŠE ŠTEDI PROSTORA
 								</h2>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    MultiBase 2042 je jedan od najboljih sistema za parkiranje kada je u pitanju ušteda prostora. Pruža efikasno rešenje kada je visina prostora ili dubina jame predvidjena za ugradnju sistema mala.
+								<p className={`${styles.paragraph} mt-4`}>
+									MultiBase 2042 je jedan od najboljih sistema
+									za parkiranje kada je u pitanju ušteda
+									prostora. Pruža efikasno rešenje kada je
+									visina prostora ili dubina jame predvidjena
+									za ugradnju sistema mala.
 								</p>
 							</section>
 
@@ -50,15 +54,32 @@ const MultiBase2042 = () => {
 									className={`${styles.paragraph} custom-list mt-4`}
 								>
 									<li>Nezavisno parkiranje</li>
-                                    <li>Singl Platforma (SP) za 2 vozila ili Dabl Platforma (DP) za 4 vozila</li>
-                                    <li>Ukupna visina za standardni tip: 310cm</li>
-                                    <li>Dubina jame za standardni tip: 150/155cm</li>
-                                    <li>Visina vozila: 150cm do 154cm</li>
-                                    <li>Dužina vozila: 500cm do 520cm</li>
-                                    <li>Širina platforme za standardni tip: 230/460cm, opciono do maksimalno: 270/500cm</li>
-                                    <li>Nosivost: 2.000kg po parking mestu</li>
-                                    <li>Pristup svim nivoima parkiranja je pod blagim nagibom</li>
-                                    <li>Vozne ploče: StandardGrip, opciono AluLongLife ili EasyWalk</li>
+									<li>
+										Singl Platforma (SP) za 2 vozila ili
+										Dabl Platforma (DP) za 4 vozila
+									</li>
+									<li>
+										Ukupna visina za standardni tip: 310cm
+									</li>
+									<li>
+										Dubina jame za standardni tip: 150/155cm
+									</li>
+									<li>Visina vozila: 150cm do 154cm</li>
+									<li>Dužina vozila: 500cm do 520cm</li>
+									<li>
+										Širina platforme za standardni tip:
+										230/460cm, opciono do maksimalno:
+										270/500cm
+									</li>
+									<li>Nosivost: 2.000kg po parking mestu</li>
+									<li>
+										Pristup svim nivoima parkiranja je pod
+										blagim nagibom
+									</li>
+									<li>
+										Vozne ploče: StandardGrip, opciono
+										AluLongLife ili EasyWalk
+									</li>
 								</ul>
 							</section>
 
@@ -106,7 +127,7 @@ const MultiBase2042 = () => {
 								<h2 className={`${styles.heading2}`}>
 									Varijacije
 									<hr className="h-1 bg-accentColor"></hr>
-                                    <img src={variationsImg}></img>
+									<img src={variationsImg}></img>
 								</h2>
 							</section>
 							<section className="mb-8">
@@ -117,7 +138,7 @@ const MultiBase2042 = () => {
 								<div className="flex flex-col gap-6 py-4 lg:flex-row lg:flex-wrap">
 									<DownloadButton
 										href={doc1}
-										text="Podatci o proizvodu (metrike)"
+										text="Podaci o proizvodu (metrike)"
 									></DownloadButton>
 									<DownloadButton
 										href={zip1}

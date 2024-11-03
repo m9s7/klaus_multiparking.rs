@@ -6,21 +6,23 @@
 @tailwind utilities;
 
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	/* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87); */
-  background-color: #ECECEC;
-/* 
+	background-color: #ececec;
+	/* 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -31,24 +33,23 @@ img {
 }
 
 .custom-list {
-  @apply list-none pl-1; 
+	@apply list-none pl-1;
 }
 
 .custom-list li {
-  position: relative;
-  padding-left: 30px; 
-  margin-bottom: 6px;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 6px;
 }
 
 .custom-list li::before {
-  content: url('./assets/list-checkmark.svg'); 
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px; 
-  height: 20px; 
+	content: url('./assets/list-checkmark.svg');
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
 }
-
 
 /* a {
   font-weight: 500;

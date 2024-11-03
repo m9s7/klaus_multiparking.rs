@@ -17,13 +17,14 @@ const MultiBase2072iSpecial = () => {
 					<div className="relative w-full">
 						<img
 							src={bannerIMG}
-							alt="MultiBase 2072i Za Osobe sa Posebnim Potrebma"
+							alt="MultiBase 2072i Za Osobe sa Posebnim Potrebama"
 							className="h-auto w-full object-cover"
 						></img>
 						<header className="-mt-6 flex flex-col justify-center text-black">
 							<h1 className={`${styles.heading1} p-2`}>
 								<span className="rounded bg-accentColor px-1 py-1">
-                                    MultiBase 2072i Za Osobe sa Posebnim Potrebma
+									MultiBase 2072i Za Osobe sa Posebnim
+									Potrebama
 								</span>
 							</h1>
 						</header>
@@ -36,14 +37,25 @@ const MultiBase2072iSpecial = () => {
 								>
 									PARKING MESTO ZA OSOBE SA POSEBNIM POTREBAMA
 								</h2>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    U Nemačkoj, parking mesta prilagođena osobama sa invaliditetom moraju biti širine 350 cm u skladu sa nemačkim GaVo propisima i preporukama DIN 18040 „Izgradnja pristupačnih objekata - Principi dizajna“.
+								<p className={`${styles.paragraph} mt-4`}>
+									U Nemačkoj, parking mesta prilagođena
+									osobama sa invaliditetom moraju biti širine
+									350 cm u skladu sa nemačkim GaVo propisima i
+									preporukama DIN 18040 „Izgradnja
+									pristupačnih objekata - Principi dizajna“.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
-                                    MultiBase 2072i platforma za parkiranje za osobe sa posebnim potrebama je kreirana za ljude sa ograničenom pokretljivošću i ima poseban dizajn koji uključuje AluLongLife prevlaku, po kojoj se može voziti i hodati.
+									MultiBase 2072i platforma za parkiranje za
+									osobe sa posebnim potrebama je kreirana za
+									ljude sa ograničenom pokretljivošću i ima
+									poseban dizajn koji uključuje AluLongLife
+									prevlaku, po kojoj se može voziti i hodati.
 								</p>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    Kontrolna tabla obezbeđuje da se kontrolni ključ može izvaditi samo kada se gornje parking mesto za ljude sa posebnim potrebama pomeri u ulazni položaj.
+								<p className={`${styles.paragraph} mt-4`}>
+									Kontrolna tabla obezbeđuje da se kontrolni
+									ključ može izvaditi samo kada se gornje
+									parking mesto za ljude sa posebnim potrebama
+									pomeri u ulazni položaj.
 								</p>
 							</section>
 
@@ -54,9 +66,20 @@ const MultiBase2072iSpecial = () => {
 								<ul
 									className={`${styles.paragraph} custom-list mt-4`}
 								>
-									<li>Za sa posebnim potrebama se može koristiti samo gornje parking mesto sa širinom od 350cm</li>
-                                    <li>Ova platforma mora biti horizontalna do makasimalno 1° nagiba</li>
-                                    <li>Poseban dizajn koji uključuje AluLongLife prevlaku, po kojoj se može voziti i hodati</li>
+									<li>
+										Za sa posebnim potrebama se može
+										koristiti samo gornje parking mesto sa
+										širinom od 350cm
+									</li>
+									<li>
+										Ova platforma mora biti horizontalna do
+										makasimalno 1° nagiba
+									</li>
+									<li>
+										Poseban dizajn koji uključuje
+										AluLongLife prevlaku, po kojoj se može
+										voziti i hodati
+									</li>
 								</ul>
 							</section>
 
@@ -90,26 +113,21 @@ const MultiBase2072iSpecial = () => {
 						<main className="p-2">
 							<section className="mb-8">
 								<h2 className={`${styles.heading2}`}>
-									Reference
-									<hr className="h-1 bg-accentColor"></hr>
-								</h2>
-							</section>
-							<section className="mb-8">
-								<h2 className={`${styles.heading2}`}>
 									Varijacije
 									<hr className="h-1 bg-accentColor"></hr>
-                                    <img src={variationsImg1}></img>
+									<img src={variationsImg1}></img>
 								</h2>
 							</section>
 							<section className="mb-8">
 								<h2 className={`${styles.heading2}`}>
-                                    MultiBase 2072i Za Osobe sa Posebnim Potrebma Preuzimanja
+									MultiBase 2072i Za Osobe sa Posebnim
+									Potrebama Preuzimanja
 									<hr className="h-1 bg-accentColor"></hr>
 								</h2>
 								<div className="flex flex-col gap-6 py-4 lg:flex-row lg:flex-wrap">
 									<DownloadButton
 										href={doc1}
-										text="Podatci o proizvodu (metrike)"
+										text="Podaci o proizvodu (metrike)"
 									></DownloadButton>
 									<DownloadButton
 										href={doc2}

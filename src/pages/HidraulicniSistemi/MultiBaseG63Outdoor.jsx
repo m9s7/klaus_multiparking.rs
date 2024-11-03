@@ -38,17 +38,27 @@ const MultiBaseG63Outdoor = () => {
 								>
 									"CAR STACKER" među našim premijum parkinzima
 								</h2>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    MultiBase G63 sistem za spoljnu upotrebu je opremljen tehnologijom protiv vremenskih nepogoda, tako da uz ovaj sistem možete uštedeti vreme i novac koji je potreban za izgradnju garaže.
+								<p className={`${styles.paragraph} mt-4`}>
+									MultiBase G63 sistem za spoljnu upotrebu je
+									opremljen tehnologijom protiv vremenskih
+									nepogoda, tako da uz ovaj sistem možete
+									uštedeti vreme i novac koji je potreban za
+									izgradnju garaže.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
-                                    MultiBase G63 sistem za spoljnu upotrebu utrostručuje broj parking mesta. Ovo znači da jedan sistem može imati do 6 parking mesta u veoma ograničenom prostoru.
+									MultiBase G63 sistem za spoljnu upotrebu
+									utrostručuje broj parking mesta. Ovo znači
+									da jedan sistem može imati do 6 parking
+									mesta u veoma ograničenom prostoru.
 								</p>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    Sva vozila su parkirana horizontalno i nezavisno jedna od drugih.
+								<p className={`${styles.paragraph} mt-4`}>
+									Sva vozila su parkirana horizontalno i
+									nezavisno jedna od drugih.
 								</p>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    Možete unaprediti vaš MultiBase G63 sistem za spoljnu upotrebu sa našom dodatnom opremom.
+								<p className={`${styles.paragraph} mt-4`}>
+									Možete unaprediti vaš MultiBase G63 sistem
+									za spoljnu upotrebu sa našom dodatnom
+									opremom.
 								</p>
 							</section>
 
@@ -60,15 +70,37 @@ const MultiBaseG63Outdoor = () => {
 									className={`${styles.paragraph} custom-list mt-4`}
 								>
 									<li>Nezavisno parkiranje</li>
-                                    <li>Singl Platforma (SP) za 3 vozila ili Dabl Platforma (DP) za 6 vozila</li>
-                                    <li>Ukupna visina za standardni tip: 510cm</li>
-                                    <li>Dubina jame za standardni tip: 350/355cm</li>
-                                    <li>Visina vozila: 150cm do 170cm</li>
-                                    <li>Dužina vozila: 500cm do 520cm</li>
-                                    <li>Širina platforme za standardni tip: 230/460cm, opciono do maksimalno: 270/500cm</li>
-                                    <li>Nosivost: 2.000kg po parking mestu, opciono maksimalno: 2.500kg za SP (za države gde snežno opterećenje ne mora biti uzeto u obzir).</li>
-                                    <li>Horizontalni pristup svim nivoima parkiranja</li>
-                                    <li>Vozne ploče: StandardGrip, opciono AluLongLife ili EasyWalk</li>
+									<li>
+										Singl Platforma (SP) za 3 vozila ili
+										Dabl Platforma (DP) za 6 vozila
+									</li>
+									<li>
+										Ukupna visina za standardni tip: 510cm
+									</li>
+									<li>
+										Dubina jame za standardni tip: 350/355cm
+									</li>
+									<li>Visina vozila: 150cm do 170cm</li>
+									<li>Dužina vozila: 500cm do 520cm</li>
+									<li>
+										Širina platforme za standardni tip:
+										230/460cm, opciono do maksimalno:
+										270/500cm
+									</li>
+									<li>
+										Nosivost: 2.000kg po parking mestu,
+										opciono maksimalno: 2.500kg za SP (za
+										države gde snežno opterećenje ne mora
+										biti uzeto u obzir).
+									</li>
+									<li>
+										Horizontalni pristup svim nivoima
+										parkiranja
+									</li>
+									<li>
+										Vozne ploče: StandardGrip, opciono
+										AluLongLife ili EasyWalk
+									</li>
 								</ul>
 							</section>
 
@@ -117,17 +149,26 @@ const MultiBaseG63Outdoor = () => {
 								<h2 className={`${styles.heading2}`}>
 									Varijacije
 									<hr className="h-1 bg-accentColor"></hr>
-                                    <div className="flex flex-row flex-wrap justify-center items-start gap-4">
-                                        <div className="flex-1 max-w-[30%]">
-                                            <img src={variationsImg1} className="w-full h-auto object-contain" />
-                                        </div>
-                                        <div className="flex-1 max-w-[30%]">
-                                            <img src={variationsImg2} className="w-full h-auto object-contain" />
-                                        </div>
-                                        <div className="flex-1 max-w-[30%]">
-                                            <img src={variationsImg3} className="w-full h-auto object-contain" />
-                                        </div>
-                                    </div>
+									<div className="flex flex-row flex-wrap items-start justify-center gap-4">
+										<div className="max-w-[30%] flex-1">
+											<img
+												src={variationsImg1}
+												className="h-auto w-full object-contain"
+											/>
+										</div>
+										<div className="max-w-[30%] flex-1">
+											<img
+												src={variationsImg2}
+												className="h-auto w-full object-contain"
+											/>
+										</div>
+										<div className="max-w-[30%] flex-1">
+											<img
+												src={variationsImg3}
+												className="h-auto w-full object-contain"
+											/>
+										</div>
+									</div>
 								</h2>
 							</section>
 							<section className="mb-8">
@@ -138,7 +179,7 @@ const MultiBaseG63Outdoor = () => {
 								<div className="flex flex-col gap-6 py-4 lg:flex-row lg:flex-wrap">
 									<DownloadButton
 										href={doc1}
-										text="Podatci o proizvodu (metrike)"
+										text="Podaci o proizvodu (metrike)"
 									></DownloadButton>
 									<DownloadButton
 										href={doc2}

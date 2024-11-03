@@ -4,6 +4,8 @@ import styles from '../../style';
 import bannerIMG from './../../assets/multiBase2072i-duplexparker-1-2.png';
 import NEU_schemaclip_multibase_2072i_IMG from './../../assets/NEU_schemaclip-multibase-2072i.gif';
 
+import variationsImg1 from './../../assets/products/MultiBase2072i/multibase-2072i-tabelle-en.jpg';
+
 import doc1 from './../../assets/products/MultiBase2072i/58729630.pdf';
 import doc2 from './../../assets/products/MultiBase2072i/58739060.pdf';
 import doc3 from './../../assets/products/E-Plug-In.pdf';
@@ -178,6 +180,12 @@ const MultiBase2072i = () => {
 								<h2 className={`${styles.heading2}`}>
 									Varijacije
 									<hr className="h-1 bg-accentColor"></hr>
+									<div className="flex flex-row flex-wrap items-start justify-center gap-4">
+										<img
+											src={variationsImg1}
+											className="h-auto w-full object-contain"
+										/>
+									</div>
 								</h2>
 							</section>
 							<section className="mb-8">
@@ -188,7 +196,7 @@ const MultiBase2072i = () => {
 								<div className="flex flex-col gap-6 py-4 lg:flex-row lg:flex-wrap">
 									<DownloadButton
 										href={doc1}
-										text="Podatci o proizvodu (metrike)"
+										text="Podaci o proizvodu (metrike)"
 									></DownloadButton>
 									<DownloadButton
 										href={doc2}

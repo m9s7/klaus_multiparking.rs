@@ -1,12 +1,10 @@
 import styles from '../../style';
 import { Link } from 'react-router-dom';
 
-
 const PoluautomaticNaslovna = () => {
 	return (
 		<div className={`${styles.paddingX} ${styles.flexCenter}`}>
 			<div className={`${styles.boxWidth}`}>
-
 				<div className="relative w-full">
 					<img
 						src="src\assets\header-produktgruppe-parker.jpg"
@@ -17,22 +15,23 @@ const PoluautomaticNaslovna = () => {
 					<header className="-mt-10 flex flex-col justify-center text-black">
 						<h1 className={`${styles.heading1} p-2`}>
 							<span className="rounded bg-accentColor px-1 py-1">
-                                POLUAUTOMATSKI PARKING SISTEMI KLAUS MULTIPARKINGA
+								POLUAUTOMATSKI PARKING SISTEMI KLAUS
+								MULTIPARKINGA
 							</span>
 						</h1>
 
 						<p
 							className={`${styles.paragraph} mt-4 p-2 font-medium`}
 						>
-							Unutar naših duplex garaža koje štede prostor, može
-							se parkirati do šest automobila jedan iznad drugog,
-							čak i na najužem prostoru. Dostupne su različite
-							verzije koje mogu zadovoljiti vaše individualne
-							zahteve - sa ili bez jame. Mobilne parking platforme
-							omogućavaju vam povećanje broja parking mesta unutar
-							iste površine, smanjenje troškova i oslobađanje
-							dodatnog prostora, uz fleksibilno i sigurno
-							parkiranje.
+							Poluautomatski parking sistemi KLAUS Multiparkinga
+							uvećavaju dostupna parking mesta unutar iste
+							površine. Pokretne parking platforme horizontalno
+							ili vertikalno transportuju vozila unutar
+							automatizovanog parking sistema i pružaju veću
+							udobnost uklanjanjem potrebe za traženjem parking
+							mesta. Naši automatizovani sistemi takođe pružaju
+							dodatnu sigurnost zahvaljujući zaštićenim parking
+							prostorima.
 						</p>
 					</header>
 				</div>
@@ -40,737 +39,596 @@ const PoluautomaticNaslovna = () => {
 					<main className="p-2">
 						<section className="mb-8">
 							<h2 className={`${styles.heading2}`}>
-								Šta je Duplex Garaža?
+								KAKO RADE NAŠI POLUAUTOMATSKI PARKING SISTEMI?
 							</h2>
 							<p className={`${styles.paragraph} mt-4`}>
-								Prednost dupleks garaža je što omogućavaju
-								udvostručenje ili utrostručenje broja parking
-								mesta bez povećanja površine. Vozila se
-								parkiraju jedno iznad drugog pomoću parking
-								platformi, što vam omogućava da maksimalno
-								iskoristite broj parking mesta čak i kada je
-								prostor ograničen. Na osnovu modela, naše
-								dupleks garaže su dostupne sa ili bez jame, za
-								nezavisno ili zavisno parkiranje, i sa dva ili
-								tri nivoa. U zavisnosti od dostupnog prostora,
-								možete izabrati između duplih platformi koje
-								obezbeđuju dva parking mesta jedno pored drugog
-								po nivou, ili jednostrukih platformi sa jednim
-								parking mestom po nivou.
+								Praktičnost i efikasnost "Napravljeno u
+								Nemačkoj" - to je ono što poluautomatski parking
+								sistemi KLAUS Multiparkinga nude. Način na koji
+								ovi sistemi funkcionišu je jednako pametan kao i
+								jednostavan. Korisnik direktno vozi u zonu
+								sistema i poziva pokretnu parking platformu na
+								kojoj zatim parkira svoje vozilo. Iza
+								zaključanih električnih kliznih vrata, platforma
+								zatim transportuje vozilo vertikalno ili
+								horizontalno do dostupnog parking mesta unutar
+								sistema. Kada je vreme za odlazak, korisnik može
+								povratiti svoje vozilo pritiskom na dugme ili
+								putem elektronskih operativnih sistema kao što
+								je SmartApp.
 							</p>
-						</section>
-
-						<section className="mb-8">
-							<h2 className={`${styles.heading2}`}>
-								Prednosti Duplex Garaža Klaus Multiparkinga
-							</h2>
+							<p className={`${styles.paragraph} mt-4`}>
+								Besplatna "Park & Smile Air" SmartApp za iOS i
+								Android osigurava još brže parkiranje i izlazak
+								- bez dugog čekanja ili traženja parking mesta.
+							</p>
+							<p className={`${styles.paragraph} mt-4`}>
+								Iskoristite sledeće karakteristike naših
+								poluautomatskih parking sistema:
+							</p>
 							<ul
 								className={`${styles.paragraph} custom-list mt-4`}
 							>
 								<li>
-									“Proizvedeno u Nemačkoj“ rešenje koje nudi
-									najbolji odnos cene i kvaliteta.
+									Slobodno konfigurabilan modularni sistem sa
+									parking platformama koje se kreću
+									horizontalno i vertikalno
 								</li>
 								<li>
-									U zavisnosti od modela broj parking mesta
-									može da se duplira (
-									<Link style={{color: "#FF6F00"}} to="/MultiBase2072i">MultiBase 2072i</Link>,{' '}
-									<Link style={{color: "#FF6F00"}} to="/MultiBase2078i">MultiBase 2078i</Link>,{' '}
-									<Link style={{color: "#FF6F00"}} to="/MultiBase2042">MultiBase 2042</Link>,{' '}
-									<Link style={{color: "#FF6F00"}} to="/MultiBaseU20">MultiBase U20</Link>,{' '}
-									<Link style={{color: "#FF6F00"}} to="/SingleVario2061">SingleVario 2061</Link>{' '} 
-									ili utrostruči (
-									<Link style={{color: "#FF6F00"}} to="/MultiBaseG63">MultiBase G63</Link>
-									). U slučaju ograničenog
-									prostora takodje nudimo platformu za jedan
-									automobil (<Link style={{color: "#FF6F00"}} to="/MultiBaseU10">MultiBase U10</Link>).
+									Do 30 odsto više parking mesta unutar iste
+									površine
 								</li>
 								<li>
-									Vrhunski proizvodi od vodećeg proizvođača i
-									dobavljača parking rešenja sa
-									višedecenijskim iskustvom.
+									Još bolje iskorišćenje dostupnog parking
+									prostora u poređenju sa našim efikasnim
+									modelima parkera
 								</li>
 								<li>
-									Efikasno proširenje parking kapaciteta za
-									stambene i poslovne zgrade - kao sistemi za
-									parkiranje na otvorenom ili u podzemnim i
-									višespratnim parkiralištima.
+									Platforma sada može biti pokrenuta kada je
+									drugo vozilo parkirano u jami
 								</li>
 								<li>
-									Takođe se može naknadno ugraditi u
-									zavisnosti od strukturnih uslova
-									(<Link style={{color: "#FF6F00"}} to="/SingleVario2061">SingleVario 2061</Link>).
+									Dodatna sigurnost za vozila zahvaljujući
+									zaključanim parking mestima
 								</li>
 								<li>
-									Stručna podrška i pomoć prilikom planiranja
-									i izvođenja pojedinačnih projekata.
+									Vozila su zaštićena od vandalizma i spoljnih
+									uticaja
+								</li>
+								<li>Dostupno sa do 3 nivoa sa ili bez jame</li>
+								<li>
+									Viša vozila takođe mogu biti parkirana bez
+									problema
+								</li>
+								<li>
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/TrendVario6200plus"
+									>
+										TrendVario 6200+
+									</Link>
+									: nezavisno parkiranje čak i bez jame
+									(efikasno se može kombinovati sa drugim
+									poluautomatskim parking sistemima)
+								</li>
+								<li>
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/TrendVario6100"
+									>
+										TrendVario 6100
+									</Link>
+									: pojednostavljen proces planiranja sa
+									standardnom visinom podzemne garaže
+									uključujući jamu
+								</li>
+								<li>
+									Sa kombinovanim poluautomatskim parking
+									sistemima: efikasno iskorišćenje parking
+									prostora, jer je potrebna samo jedna
+									pristupna traka
 								</li>
 							</ul>
 						</section>
 
 						<section className="mb-8">
 							<h2 className={`${styles.heading2}`}>
-								Koja je Svrha Duplex Garaža?
+								NAŠI POLUAUTOMATSKI PARKING SISTEMI UKRATKO
 							</h2>
 							<p className={`${styles.paragraph} mt-4`}>
-								Naše dupleks garaže se uglavnom koriste tamo gde
-								ograničen prostor zahteva efikasniju upotrebu
-								dostupne parking površine. Sa našim modelima
-								dvostrukih parkera, možete ekonomično i efikasno
-								udvostručiti ili utrostručiti broj parking mesta
-								i imati koristi od parking površine sa smanjenom
-								površinom. Naše dupleks garaže vam pružaju
-								dodatni prostor koji možete koristiti u druge
-								svrhe. Sistemom se upravlja putem upravljačke
-								jedinice i kontrolnog ključa. Ako se kontrolni
-								ključ ukloni tokom procesa parkiranja, sistem se
-								pouzdano i sigurno zaustavlja.
-							</p>
-						</section>
-
-						<section className="mb-8">
-							<h2 className={`${styles.heading2}`}>
-								Koja je Razlika Između Duplex Garaže i Duplog
-								Parkera?
-							</h2>
-							<p className={`${styles.paragraph} mt-4`}>
-								Iako pojmovi &quot;dupleks garaža&quot;,
-								&quot;dvostruki parker&quot;, &quot;podizni
-								parker&quot;, &quot;sistem višestrukog
-								parkiranja&quot; i &quot;dupleks parker&quot;
-								zvuče kao različite tehnologije parkiranja, one
-								su jednostavno različite oznake tipova koje
-								koriste različiti proizvođači. Dvostruki
-								parkeri, dupleks parkeri i dupleks garaže stoga
-								imaju istu svrhu - da udvostruče broj parking
-								mesta putem inovativnih parking rešenja.
-							</p>
-							<iframe
-								className="mt-4 aspect-video w-full"
-								src="https://www.youtube-nocookie.com/embed/rz3qLVEmOEY?si=lr4O951gda4q6Zyk"
-								title="YouTube video player"
-								frameBorder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerPolicy="strict-origin-when-cross-origin"
-								allowFullScreen
-							></iframe>
-						</section>
-
-						<section className="mb-8">
-							<h2 className={`${styles.heading2}`}>
-								Klaus Multiparking Nudi Sledeće Duplex Garaže
-							</h2>
-							<p className={`${styles.paragraph} mt-4`}>
-								Prilikom izbora dupleks garaže može se napraviti
-								razlika između različitih tipova i načina rada.
-								Kada je u pitanju odluka koja je pogodna za vaš
-								projekat, to će zavisiti od vaših specifičnih
-								zahteva i strukturalnih uslova na mestu
-								instalacije.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								U KLAUS Multiparking asortimanu naći ćete
-								sledeće tipove dupleks garaža:
-							</p>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									<strong>Nezavisno parkiranje:</strong>{' '}
-									Slobodnim parking platformama može se
-									pristupiti nezavisno i jednostavno.
-								</li>
-								<li>
-									<strong>Zavisno parkiranje:</strong> Donje
-									parking mesto mora biti prazno da bi se
-									parking platforma spustila.
-								</li>
-								<li>
-									<strong>Dva ili tri nivoa:</strong> Do šest
-									vozila može se parkirati jedno iznad drugo.
-								</li>
-								<li>
-									<strong>Dvostruka platforma (DP):</strong>{' '}
-									Pruža do dva parking mesta jedno pored
-									drugog po nivou.
-								</li>
-								<li>
-									<strong>Jednostruka platforma (SP):</strong>{' '}
-									Pruža jedno parking mesto po nivou.
-								</li>
-							</ul>
-						</section>
-
-						<section className="mb-8">
-							<h2 className={`${styles.heading2}`}>
-								Šta je Multibase Model?
-							</h2>
-							<p className={`${styles.paragraph} mt-4`}>
-								MultiBase je najnovija generacija sistema
-								dupleks garaža iz KLAUS Multiparkinga. Sa
-								MultiBase-om dobijate ekonomično rešenje koje
-								pruža maksimalan mogući broj parking mesta kako
-								bi se rešili postojeći problemi kapaciteta. To
-								podrazumeva vertikalno udvostručavanje ili
-								utrostručavanje broja parking mesta unutar iste
-								površine.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								MultiBase modeli su pogodni za:
-							</p>
-							<ul
-								className={`${styles.paragraph} custom-list mt-4`}
-							>
-								<li>
-									Porodične kuće i stambene zgrade sa ili bez
-									garaža
-								</li>
-								<li>
-									Proširenja kapaciteta u stambenim i
-									poslovnim zgradama, kao i u podzemnim i
-									višespratnim parkinzima
-								</li>
-								<li>
-									Sistemi za parkiranje na otvorenom, sa ili
-									bez garaže, u unutrašnjim dvorištima i
-									baštama
-								</li>
-							</ul>
-						</section>
-
-						<section className="mb-8">
-							<h2 className={`${styles.heading2}`}>
-								Naši Parkeri Ukratko:
-							</h2>
-							<p className={`${styles.paragraph} mt-4`}>
-								Bilo da se radi o dupleks garaži ili duploj
-								garaži : Naši parkeri nude rešenja koja štede
-								prostor za urbane prostore i svaku oblast
-								primene. Iskoristite prednosti naših efikasnih i
-								isplativih rešenja za smanjenje vaše potrebe za
-								prostorom.
+								Naši poluautomatski parking sistemi stvaraju
+								više parking mesta unutar iste korisne površine
+								- i mogu se lako kombinovati ako je potrebno
+								dodatno parkiranje. Optimizujte svoje parking
+								objekte sa dodatnim kapacitetom i
+								automatizovanim procesima parkiranja u
+								podrumima, na prizemlju i na gornjim spratovima.
 							</p>
 							<p className={`${styles.paragraph} mt-4`}>
 								Naš asortiman proizvoda uključuje:
 							</p>
-							<h3
-								className={`${styles.heading3} mt-4 text-accentColor underline`}
-							>
-								<Link style={{color: "#FF6F00"}} to="/MultiBase2072i">MultiBase 2072i</Link>
-							</h3>
-							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
-								<div className='lg:w-3/5 mt-4'>
-									<ul
-										className={`${styles.paragraph} custom-list`}
-									>
-										<li>
-											Omogućava horizontalno parkiranje na svim
-											nivoima parkiranja (za optimalno
-											iskorišćenje prostora, automobili se
-											parkiraju horizontalno jedan iznad drugog
-											podizanjem i spuštanjem parking nivoa
-											horizontalno)
-										</li>
-										<li>
-											Udvostručava broj parking mesta putem
-											jednostruke platforme (2 automobila) ili
-											dvostruke platforme (4 automobila)
-										</li>
-										<li>Za nezavisno parkiranje sa jamom</li>
-										<li>
-											Maksimalna udobnost i komfor prilikom
-											ulaska/izlaska iz vozila
-										</li>
-										<li>Maksimalna visina automobila 215 cm</li>
-										<li>Takođe dostupno kao sistem na otvorenom</li>
-										<li>
-											Maksimalno opterećenje: 2,6 t sa
-											jednostrukom platformom/dvostrukom
-											platformom ili 3,0 t sa jednostrukom
-											platformom
-										</li>
-										<li>
-											Kompatibilno sa stanicama za punjenje
-											električnih vozila
-										</li>
-										<li>
-											<strong>Pogodno za:</strong> stambene i
-											poslovne zgrade, hotele, kao i porodične
-											kuće i stambene zgrade.
-										</li>
-									</ul>
-								</div>
-								<img
-									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-									src="src\assets\NEU_schemaclip-multibase-2072i.gif"
-									alt="animation graphic scheme multibase 2072i"
-									loading="lazy"
-								/>
-							</div>
 
 							<h3
 								className={`${styles.heading3} mt-4 text-accentColor underline`}
 							>
-								<Link style={{color: "#FF6F00"}} to="/MultiBase2078i">MultiBase 2078i</Link>
+								<Link
+									style={{ color: '#FF6F00' }}
+									to="/TrendVario6100"
+								>
+									TrendVario 6100
+								</Link>
 							</h3>
-							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
-								<div className='lg:w-3/5 mt-4'>
+							<div className="lg:flex lg:w-full lg:flex-row lg:flex-nowrap lg:items-start lg:gap-4">
+								<div className="mt-4 lg:w-3/5">
 									<ul
 										className={`${styles.paragraph} custom-list`}
 									>
 										<li>
-											Udvostručava broj dostupnih parking mesta
-											putem jednostruke platforme (2 automobila)
-											ili dvostruke platforme (4 automobila)
+											Horizontalni pristup parking
+											prostoru
 										</li>
 										<li>
-											Ušteda prostora zahvaljujući potrebnoj
-											visini za instalaciju nižom za 30 cm
+											Dva parking mesta horizontalno jedno
+											iznad drugog
 										</li>
-										<li>Za nezavisno parkiranje</li>
+										<li>Jama je potrebna</li>
 										<li>
-											Udoban ulazak i izlazak zahvaljujući
-											izbočenim čeličnim stubovima
-										</li>
-										<li>Za automobile do 215 cm visine</li>
-										<li>
-											Maksimalno opterećenje: 2,6 t sa
-											jednostrukom platformom/dvostrukom
-											platformom ili 3,0 t sa jednostrukom
-											platformom
+											Drugi automobil se spušta u jamu
+											putem parking platforme
 										</li>
 										<li>
-											Posebno ekološka i niskoodržavajuća opcija
-											zahvaljujući elektro-hidrauličnom sistem za
-											sinhronizaciju kontrole
+											Potrebna je niža visina plafona jer
+											se vozila spuštaju u jamu
 										</li>
 										<li>
-											Kompatibilno sa stanicama za punjenje
-											električnih vozila
+											Još više parking mesta kada se
+											kombinuje sa drugim TrendVario
+											modelima
 										</li>
 										<li>
-											<strong>Pogodno za:</strong> stambene i
-											poslovne zgrade, kao i porodične kuće i
-											stambene zgrade.
+											Automatizovano
+											horizontalno/vertikalno kretanje
+											vozila
+										</li>
+										<li>
+											Vozila su zaštićena od vandalizma i
+											krađe zahvaljujući zaključanim
+											električnim kliznim vratima
+										</li>
+										<li>
+											Sa 15 parking gridova: moguće je do
+											29 parking mesta
+										</li>
+										<li>
+											Kontrolisano putem elektronskih
+											pomagala (SmartChip, SmartPortable
+											ili SmartApp)
+										</li>
+										<li>Za prizemne etaže i podzemlje</li>
+										<li>
+											<strong>Pogodno za:</strong>{' '}
+											Poslovne zgrade, stambeno-poslovne
+											zgrade, podzemne i višespratne
+											garaže, prodavnice automobila,
+											konstrukcije koje se naslanjaju na
+											granice imovine i stambeno-poslovne
+											komplekse u gradskim sredinama
 										</li>
 									</ul>
 								</div>
-								<img
-									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-									src="src\assets\NEU_schemaclip-multibase-2078i.gif"
-									alt="animation graphic scheme multibase 2078i"
-									loading="lazy"
-								/>
-							</div>
-
-							<h3
-								className={`${styles.heading3} mt-4 text-accentColor underline`}
-							>
-								<Link style={{color: "#FF6F00"}} to="/MultiBase2042">MultiBase 2042</Link>
-							</h3>
-							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
-								<div className='lg:w-3/5 mt-4'>
-									<ul
-										className={`${styles.paragraph} custom-list`}
-									>
-										<li>
-											Udvostručuje broj parking mesta u okviru
-											iste površine
-										</li>
-										<li>
-											Posebno štedi prostor sa malom dubinom jame
-											i visinom ugradnje
-										</li>
-										<li>Za nezavisno parkiranje</li>
-										<li>
-											Dostupan sa jednostrukom platformom (2
-											automobila) ili dvostrukom platformom (4
-											automobila)
-										</li>
-										<li>Maksimalna visina automobila 154 cm</li>
-										<li>
-											Maksimalno opterećenje: 2,0 t po parking
-											mestu
-										</li>
-										<li>
-											<strong>Pogodno za:</strong> stambene i
-											poslovne zgrade kao i porodične kuće i
-											stambene zgrade.
-										</li>
-									</ul>
-								</div>
-								<img
-									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-									src="src\assets\NEU_schemaclip-multibase-2042.gif"
-									alt="animation graphic scheme multibase 2042"
-									loading="lazy"
-								/>
-							</div>
-							<h3
-								className={`${styles.heading3} mt-4 text-accentColor underline`}
-							>
-								<Link style={{color: "#FF6F00"}} to="/MultiBaseG63">MultiBase G63</Link>
-							</h3>
-							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
-								<div className='lg:w-3/5 mt-4'>
-									<ul
-										className={`${styles.paragraph} custom-list`}
-									>
-										<li>
-											Utrostručuje dostupan prostor za parkiranje
-											(do 6 parking mesta)
-										</li>
-										<li>Za nezavisno parkiranje</li>
-										<li>
-											Horizontalno parkiranje na svim nivoima
-											parkiranja
-										</li>
-										<li>
-											Sa jednostrukom platformom (3 automobila)
-											ili dvostrukom platformom (6 automobila)
-										</li>
-										<li>Maksimalna visina vozila 170 cm</li>
-										<li>Takođe pogodno kao sistem na otvorenom</li>
-										<li>
-											Maksimalno opterećenje: maks. 2.0 t po
-											parking mestu ili opciono maks. 2.5 t na
-											jednostrukoj platformi
-										</li>
-										<li>
-											<strong>Pogodno za:</strong> stambene i
-											poslovne zgrade, hotele, kao i porodične
-											kuće i stambene zgrade.
-										</li>
-									</ul>
-								</div>
-									<img
-										className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-										src="src\assets\NEU_schemaclip-multibase-g63.gif"
-										alt="animation graphic scheme multibase g63"
-										loading="lazy"
-									/>
-							</div>
-							<h3
-								className={`${styles.heading3} mt-4 text-accentColor underline`}
-							>
-								<Link style={{color: "#FF6F00"}} to="/MultiBaseU10">MultiBase U10</Link>{' '}/
-								<Link style={{color: "#FF6F00"}} to="/MultiBaseU20">MultiBase U20</Link>{' '}
-							</h3>
-							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
-								<div className='lg:w-3/5 mt-4'>
-									<ul
-										className={`${styles.paragraph} custom-list`}
-									>
-										<li>
-											Skoro nevidljiv jer je skoro potpuno
-											potopljen u zemlju
-										</li>
-										<li>
-											Vizuelne opcije dizajna za gornju parking
-											platformu (npr. popločavanje ili zelenilo)
-										</li>
-										<li>
-											Gornja platforma je nivu sa zemljom (može se
-											voziti preko nje)
-										</li>
-										<li>
-											MultiBase U10 jedna platforma za 1
-											automobil, MultiBase U20 jedna platforma za
-											2 automobila
-										</li>
-										<li>Horizontalni pristup parking nivoima</li>
-										<li>
-											Povećava vrednost imovine kroz dodatni
-											koristan prostor
-										</li>
-										<li>Za nezavisno parkiranje</li>
-										<li>Maksimalna visina vozila 200 cm</li>
-										<li>
-											Maksimalno opterećenje: 2.0 t po parking
-											mestu, opciono 2.6 t
-										</li>
-										<li>
-											<strong>Pogodno za:</strong> zelene površine
-											u stambenim i poslovnim kompleksima, hotele,
-											kao i porodične kuće i stambene zgrade.
-										</li>
-									</ul>
-								</div>
-								<div className='lg:w-2/5 mb-12 mt-4'>
-									<img
-										className="h-auto object-contain"
-										src="src\assets\NEU_schemaclip-multibase-u10.gif"
-										alt="animation graphic scheme multibase u10"
-										loading="lazy"
-									/>
-									<img
-										className="h-auto object-contain"
-										src="src\assets\NEU_schemaclip-multibase-u20.gif"
-										alt="animation graphic scheme multibase u20"
-										loading="lazy"
-									/>
-								</div>
-							</div>
-							<h3
-								className={`${styles.heading3} mt-4 text-accentColor underline`}
-							>
-								<Link style={{color: "#FF6F00"}} to="/SingleVario2061">SingleVario 2061</Link>
-							</h3>
-							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
-								<div className='lg:w-3/5 mt-4'>
-									<ul
-										className={`${styles.paragraph} custom-list`}
-									>
-										<li>
-											Udvostručuje parking mesta u dvospratnoj
-											garaži
-										</li>
-										<li>Montaža bez jame</li>
-										<li>Podesivo po visini</li>
-										<li>Za zavisno parkiranje</li>
-										<li>Sa jednom platformom za 2 automobila</li>
-										<li>Maksimalna visina vozila 200 cm</li>
-										<li>
-											Rastojanje između platformi moguće
-											podešavati
-										</li>
-										<li>Horizontalni pristup parking nivoima</li>
-										<li>
-											<strong>Pogodno za:</strong> stambene i
-											poslovne zgrade, hotele, porodične kuće i
-											stambene zgrade, kao i naknadnu ugradnju.
-										</li>
-									</ul>
-								</div>
-								<img
-									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-									src="src\assets\NEU_schemaclip-singlevario-2061.gif"
-									alt="animation graphic scheme singlevario 2061"
-									loading="lazy"
-								/>
-							</div>
-							<h3 className={`${styles.heading3} mt-4`}>
-								<span className="text-accentColor underline">
-									<Link style={{color: "#FF6F00"}} to="/MultiBase2072iSpecial">MultiBase 2072i</Link>
-								</span>{' '}
-								- platforme za osobe sa posebnim potrebama
-							</h3>
-							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
-								<div className='lg:w-3/5 mt-4'>
-									<ul
-										className={`${styles.paragraph} custom-list`}
-									>
-										<li>
-											Gornja parking platforma označena je kao
-											parking mesto za osobe sa invaliditetom u
-											skladu sa nemačkim propisima koji regulišu
-											parking objekte (&quot;GaVO&quot;) i DIN
-											18025 &quot;Konstrukcija bez barijera -
-											principi planiranja&quot; (širina korisne
-											platforme: 350 cm)
-										</li>
-										<li>
-											Visokokvalitetna AluLongLife površina koja
-											je lakša za hodanje i pristupanje
-										</li>
-										<li>Za horizontalni pristup parking nivoima</li>
-										<li>
-											Poseban kontrolni uređaj osigurava da se
-											kontrolni ključ može ukloniti samo kada je
-											gornje parking mesto za osobe sa
-											invaliditetom u poziciji ulaska
-										</li>
-										<li>
-											<strong>Pogodno za:</strong> garaže kuća i
-											stambenih zgrada, poslovne zgrade i stambene
-											ili poslovne zgrade.
-										</li>
-									</ul>
-								</div>
-								<img
-									className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-									src="src\assets\NEU_schemaclip-multibase-2072i.gif"
-									alt="animation graphic scheme multibase 2072i"
-									loading="lazy"
-								/>
-							</div>
-							<h3 className={`${styles.heading3} mt-4`}>
-								<span className="text-accentColor underline">
-									<Link style={{color: "#FF6F00"}} to="/SingleVario2061Outdoor">SingleVario 2061 Spolja</Link>
-								</span>{' '}
-								/{' '}
-								<span className="text-accentColor underline">
-									<Link style={{color: "#FF6F00"}} to="/MultiBase2072iOutdoor">MultiBase 2072i Spolja</Link>
-								</span>{' '}
-								/{' '}
-								<span className="text-accentColor underline">
-									<Link style={{color: "#FF6F00"}} to="/MultiBaseG63Outdoor">MultiBase G63 Spolja</Link>
-								</span>{' '}
-							</h3>
-							<div className='lg:flex lg:flex-row lg:flex-nowrap lg:w-full lg:items-start lg:gap-4'>
-								<div className='lg:w-3/5 mt-4'>
-									<ul
-										className={`${styles.paragraph} custom-list`}
-									>
-										<li>
-											Ovi odabrani modeli dostupni su kao sistemi
-											za spoljnu upotrebu (npr. u dvorištu ili
-											bašti)
-										</li>
-										<li>
-											Robustna, otporna tehnologija koja je
-											zaštićena od vremenskih uslova
-										</li>
-										<li>Nije potrebna skupa izgradnja garaže</li>
-										<li>
-											Udvostručuje ili utrostručuje broj parking
-											mesta na otvorenom
-										</li>
-										<li>
-											Za zavisno ili nezavisno parkiranje, u
-											zavisnosti od modela
-										</li>
-									</ul>
-								</div>
-								<div className='lg:flex lg:flex-col items-center lg:w-2/5'>
-									<div className='lg:flex lg:flex-row'>
-										<img
-											className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-											src="src\assets\NEU_schemaclip-singlevario-2061-outdoor.gif"
-											alt="animation graphic scheme singlevario 2061 outdoor"
-											loading="lazy"
-										/>
-										<img
-											className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-											src="src\assets\NEU_schemaclip-multibase-2072i-outdoor.gif"
-											alt="animation graphic scheme multibase 2072i outdoor"
-											loading="lazy"
-										/>
+								<div className="mt-4 w-full lg:w-2/5">
+									<div className="relative w-full pt-[56.25%]">
+										<iframe
+											className="absolute inset-0 h-full w-full"
+											src="https://www.youtube.com/embed/inZWQLpQj9M"
+											title="TrendVario 6100 – Independent Parking of the premium class"
+											frameborder="0"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+											referrerpolicy="strict-origin-when-cross-origin"
+											allowfullscreen
+										></iframe>
 									</div>
-									<img
-										className="lg:w-2/5 h-auto object-contain mb-12 mt-4"
-										src="src\assets\NEU_schemaclip-multibase-g63-outdoor.gif"
-										alt="animation graphic scheme multibase g63 outdoor"
-										loading="lazy"
-									/>
+								</div>
+							</div>
+
+							<h3
+								className={`${styles.heading3} mt-4 text-accentColor underline`}
+							>
+								<Link
+									style={{ color: '#FF6F00' }}
+									to="/TrendVario6100plus"
+								>
+									TrendVario 6100+
+								</Link>
+							</h3>
+							<div className="flex flex-col lg:w-full lg:flex-row lg:flex-nowrap lg:items-start lg:gap-4">
+								<div className="mt-4 lg:w-3/5">
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Parking sistem sa vožnjom na nivou
+											tla sa parking platformama koje se
+											mogu pomerati
+											horizontalno/vertikalno
+										</li>
+										<li>Jama je potrebna</li>
+										<li>
+											Parkiranje dva vozila horizontalno
+											jedno iznad drugog (jedno od njih u
+											jami)
+										</li>
+										<li>
+											Više parking mesta moguće kada se
+											kombinuje sa drugim modelima, npr.{' '}
+											<Link
+												style={{ color: '#FF6F00' }}
+												to="/TrendVario6100"
+											>
+												TrendVario 6100
+											</Link>{' '}
+											/{' '}
+											<Link
+												style={{ color: '#FF6F00' }}
+												to="/TrendVario6200plus"
+											>
+												TrendVario 6200+
+											</Link>{' '}
+											/{' '}
+											<Link
+												style={{ color: '#FF6F00' }}
+												to="/TrendVario6300"
+											>
+												TrendVario 6300
+											</Link>{' '}
+											/{' '}
+											<Link
+												style={{ color: '#FF6F00' }}
+												to="/TrendVario6300plus"
+											>
+												TrendVario 6300+
+											</Link>
+										</li>
+										<li>
+											Kao prolazni sistem, nije potrebna
+											druga pristupna traka
+										</li>
+										<li>
+											Značajno niža visina plafona je
+											potrebna zahvaljujući jami
+										</li>
+										<li>
+											Zaključana električna klizna vrata
+											štite vozila od vandalizma i krađe
+										</li>
+										<li>
+											Do 28 parking mesta sa 4 reda iza
+											sebe + 4 reda pored
+										</li>
+										<li>
+											Kontrolisano putem elektronskih
+											pomagala (SmartChip, SmartPortable
+											ili SmartApp)
+										</li>
+										<li>
+											Za prizemne etaže i/ili podzemlje -
+											kombinovani sistemi takođe mogu biti
+											voženi
+										</li>
+										<li>
+											<strong>Pogodno za:</strong>{' '}
+											Poslovne zgrade, stambeno-poslovne
+											zgrade, podzemne i višespratne
+											garaže, prodavnice automobila,
+											konstrukcije koje se naslanjaju na
+											granice imovine i stambeno-poslovni
+											kompleksi u gradskim sredinama
+										</li>
+									</ul>
+								</div>
+								<div className="mt-4 w-full lg:w-2/5">
+									<div className="relative w-full pt-[56.25%]">
+										<iframe
+											className="absolute inset-0 h-full w-full"
+											src="https://www.youtube.com/embed/CeYquxky_QI"
+											title="TrendVario Combination – The drive-through premium semi-automatic parking system"
+											frameborder="0"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+											referrerpolicy="strict-origin-when-cross-origin"
+											allowfullscreen
+										></iframe>
+									</div>
+								</div>
+							</div>
+
+							<h3
+								className={`${styles.heading3} mt-4 text-accentColor underline`}
+							>
+								<Link
+									style={{ color: '#FF6F00' }}
+									to="/TrendVario6200plus"
+								>
+									TrendVario 6200+
+								</Link>
+							</h3>
+							<div className="lg:flex lg:w-full lg:flex-row lg:flex-nowrap lg:items-start lg:gap-4">
+								<div className="mt-4 lg:w-3/5">
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Parking sistem prolazni , može se
+											proći horizontalno
+										</li>
+										<li>Nema potrebe za jamom</li>
+										<li>
+											Parkira dva vozila horizontalno
+											jedno iznad drugog
+										</li>
+										<li>
+											Do 28 dodatnih parking mesta sa 4
+											reda iza sebe + 4 reda pored
+										</li>
+										<li>
+											Druga pristupna traka nije potrebna
+											za dodatne redove parkinga
+										</li>
+										<li>
+											Horizontalno/vertikalno kretanje
+											vozila
+										</li>
+										<li>
+											Kontrolisano putem elektronskih
+											pomagala (SmartChip, SmartPortable
+											ili SmartApp)
+										</li>
+										<li>
+											Vozila su zaštićena od vandalizma i
+											krađe pomoću električnih kliznih
+											vrata
+										</li>
+										<li>
+											Za prizemne etaže i/ili gornje etaže
+											-po kombinovanim sistemima takođe
+											može da se vozi
+										</li>
+										<li>
+											<strong>Pogodno za:</strong>{' '}
+											Poslovne zgrade, stambeno-poslovne
+											zgrade, podzemne i višespratne
+											garaže, prodavnice automobila i
+											stambeno-poslovni kompleksi u
+											gradskim sredinama
+										</li>
+									</ul>
+								</div>
+								<div className="mt-4 w-full lg:w-2/5">
+									<div className="relative w-full pt-[56.25%]">
+										<iframe
+											className="absolute inset-0 h-full w-full"
+											src="https://www.youtube.com/embed/obZwMhGi7sQ"
+											title="TrendVario 6200+ - Urban parking to the next level"
+											frameborder="0"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+											referrerpolicy="strict-origin-when-cross-origin"
+											allowfullscreen
+										></iframe>
+									</div>
+								</div>
+							</div>
+
+							<h3
+								className={`${styles.heading3} mt-4 text-accentColor underline`}
+							>
+								<Link
+									style={{ color: '#FF6F00' }}
+									to="/TrendVario6300"
+								>
+									TrendVario 6300
+								</Link>
+							</h3>
+							<div className="lg:flex lg:w-full lg:flex-row lg:flex-nowrap lg:items-start lg:gap-4">
+								<div className="mt-4 lg:w-3/5">
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Horizontalni pristup parking
+											prostoru
+										</li>
+										<li>Jama je potrebna</li>
+										<li>
+											Stvara tri parking mesta jedno iznad
+											drugog
+										</li>
+										<li>
+											Vozila se spuštaju u jamu ili se
+											transportuju na treći nivo parkinga
+										</li>
+										<li>
+											Potrebna je niža visina plafona jer
+											se vozila spuštaju u jamu
+										</li>
+										<li>
+											Automatizovano
+											horizontalno/vertikalno kretanje
+											vozila
+										</li>
+										<li>
+											Vozila su zaštićena od krađe i
+											vandalizma zahvaljujući električnim
+											kliznim vratima
+										</li>
+										<li>
+											Sa 10 parking gridova: moguće je do
+											29 parking mesta
+										</li>
+										<li>
+											Kontrolisano putem elektronskih
+											pomagala (SmartChip, SmartPortable
+											ili SmartApp)
+										</li>
+										<li>
+											Za podzemlje, prizemlje i gornje
+											spratove
+										</li>
+										<li>
+											<strong>Pogodno za:</strong>{' '}
+											Poslovne zgrade, stambeno-poslovne
+											zgrade, podzemne i višespratne
+											garaže, prodavnice automobila i
+											stambeno-poslovne komplekse u
+											gradskim sredinama
+										</li>
+									</ul>
+								</div>
+								<div className="mt-4 w-full lg:w-2/5">
+									<div className="relative w-full pt-[56.25%]">
+										<iframe
+											className="absolute inset-0 h-full w-full"
+											src="https://www.youtube.com/embed/3HSDyc6G5wo"
+											title="TrendVario 6300 – For progressive and independent parking"
+											frameborder="0"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+											referrerpolicy="strict-origin-when-cross-origin"
+											allowfullscreen
+										></iframe>
+									</div>
+								</div>
+							</div>
+
+							<h3
+								className={`${styles.heading3} mt-4 text-accentColor underline`}
+							>
+								<Link
+									style={{ color: '#FF6F00' }}
+									to="/TrendVario6300plus"
+								>
+									TrendVario 6300+
+								</Link>
+							</h3>
+							<div className="lg:flex lg:w-full lg:flex-row lg:flex-nowrap lg:items-start lg:gap-4">
+								<div className="mt-4 lg:w-3/5">
+									<ul
+										className={`${styles.paragraph} custom-list`}
+									>
+										<li>
+											Horizontalni pristup parking
+											prostoru
+										</li>
+										<li>
+											Potrebna je niža visina plafona jer
+											se vozila spuštaju u jamu
+										</li>
+										<li>
+											Automatizovano
+											horizontalno/vertikalno kretanje
+											vozila
+										</li>
+										<li>
+											Vozila su zaštićena od vandalizma i
+											krađe
+										</li>
+										<li>
+											Do 44 parking mesta moguće je sa 4
+											reda iza sebe i 4 grida pored
+										</li>
+										<li>
+											Kontrolisano putem elektronskih
+											pomagala (SmartChip, SmartPortable
+											ili SmartApp)
+										</li>
+										<li>
+											Za podzemlje, prizemlje i gornje
+											spratove - kombinovani sistemi
+											takođe mogu biti voženi
+										</li>
+										<li>
+											<strong>Pogodno za:</strong>{' '}
+											Poslovne zgrade, stambeno-poslovne
+											zgrade, podzemne i višespratne
+											garaže, prodavnice automobila i
+											stambeno-poslovne komplekse u
+											gradskim sredinama
+										</li>
+									</ul>
+								</div>
+								<div className="mt-4 w-full lg:w-2/5">
+									<div className="relative w-full pt-[56.25%]">
+										<iframe
+											className="absolute inset-0 h-full w-full"
+											src="https://www.youtube.com/embed/CeYquxky_QI"
+											title="TrendVario Combination – The drive-through premium semi-automatic parking system"
+											frameborder="0"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+											referrerpolicy="strict-origin-when-cross-origin"
+											allowfullscreen
+										></iframe>
+									</div>
 								</div>
 							</div>
 						</section>
 
 						<section className="mb-8">
 							<h2 className={`${styles.heading2}`}>
-								Prednosti i Mane Duplex Garaže Na Ukratko
+								SVE PREDNOSTI POLUAUTOMATSKOG PARKING SISTEMA
 							</h2>
 							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Garantovane prednosti:</strong>
+								Poluautomatski parking sistem omogućava vam
+								maksimalno iskorišćavanje dostupnog kapaciteta
+								za parkiranje unutar postojećeg zemljišta i
+								planiranje novih parking mesta koji obezbeđuju
+								optimalno iskorišćavanje prostora.
+							</p>
+							<p className={`${styles.paragraph} mt-4`}>
+								<strong>
+									Prednosti poluautomatskih parking sistema
+									KLAUS Multiparkinga uključuju:
+								</strong>
 							</p>
 							<ul
 								className={`${styles.paragraph} custom-list mt-4`}
 							>
 								<li>
-									Udvostručuje ili utrostručuje broj parking
-									mesta
+									Izuzetnu fleksibilnost i efikasnost
+									zahvaljujući maksimalnom iskorišćavanju
+									parking prostora
 								</li>
 								<li>
-									Brže dobijanje dozvole za planiranje
-									zahvaljujući poštovanju zakonskih zahteva za
-									broj parking mesta
-								</li>
-								<li>
-									Ušteda vremena - nema potrebe za traženjem
-									parking mesta
-								</li>
-								<li>
-									Svi mehanički komponenti sistema su
-									profesionalno testirani, sigurni i pouzdani
-								</li>
-								<li>
-									Različite visine automobila mogu biti
-									smeštene sa dvostrukim parkerima
-								</li>
-								<li>
-									Povećan prihod - više parking mesta unutar
+									Povećanje dostupnih parking mesta unutar
 									iste površine
 								</li>
 								<li>
-									Nema zakonskih taksi za parking mesta
-									(ušteda troškova)
+									Jednostavno planiranje parking prostora sa
+									ili bez jame
 								</li>
 								<li>
-									Sa MultiBase U10 / MultiBase U20
-									&quot;nevidljiva&quot; parking mesta
+									Svi TrendVario sistemi mogu se kombinovati
 								</li>
 								<li>
-									Verzija prilagođena potrebama korisnika sa
-									invaliditetom takođe dostupna
+									Sigurna parking mesta iza zatvorenih vrata
 								</li>
 								<li>
-									Brza i profesionalna korisnička podrška
-									KLAUS Multiparkinga
+									Automatizovani procesi parkiranja za
+									najbolje moguće iskustvo parkiranja
+								</li>
+								<li>
+									Ušteda vremena - više nema potrebe za
+									traženjem parking mesta
+								</li>
+								<li>
+									Korisnički prijateljski kontrolni sistem sa
+									daljinskim upravljanjem i električnim
+									pomagalima
 								</li>
 							</ul>
 							<p className={`${styles.paragraph} mt-4`}>
-								Kao vodeći proizvođač i dobavljač modernih
-								sistema parkiranja, KLAUS Multiparking je vaš
-								pouzdan partner. Nudimo više od 60 godina
-								iskustva kao i inovativna rešenja za parkiranje
-								za različite veličine parcela. A budući da se
-								naši parking sistemi koriste širom sveta, možete
-								se osloniti na neprevaziđenu kvalitet i
-								funkcionalnost kako za velike tako i za male
-								parking prostore.
-							</p>
-						</section>
-						{/* DO OVDE GOTOVO  */}
-
-						<section>
-							<h2 className={`${styles.heading2}`}>
-								Procedura Instalacije Duplex Garaže
-							</h2>
-							<p className={`${styles.paragraph} mt-4`}>
-								Već ste se odlučili za dupleks garažu KLAUS
-								Multiparking-a? Onda možete računati na naše
-								pouzdane usluge - od faze planiranja do
-								realizacije projekta. Naš proces za instalaciju
-								naših dvostrukih parkera je sledeći:
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Korak 1: </strong>Pružamo profesionalnu
-								podršku za planiranje tokom faze realizacije
-								projekta. U tu svrhu, sarađujemo sa arhitektima,
-								projektantima i izvođačima radova.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Korak 2: </strong>Dobijate našu potvrdu
-								porudžbine nakon što obradimo vašu narudžbinu.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Korak 3: </strong>Pregled planiranja i
-								tehnička obrada dostupnih planova.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Korak 4: </strong>Utvrđujemo mere i
-								proveravamo sve dimenzije kako bismo rešili
-								eventualne tehničke nedoumice. Nakon toga sledi
-								tehnička konfiguracija sistema.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Korak 5: </strong>Čim se sistem
-								aktivira, počinje naš proizvodni proces
-								&quot;Made in Germany&quot;.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Korak 6: </strong>Komponente sistema se
-								proizvode i sistem se šalje. Nakon toga sledi
-								sigurna i brza dostava na lokaciju instalacije.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Korak 7: </strong>Sistem se
-								profesionalno instalira.
-							</p>
-							<p className={`${styles.paragraph} mt-4`}>
-								<strong>Korak 8: </strong>Po završetku montaže,
-								sistem se može pustiti u rad.
+								Oslonite se na KLAUS Multiparking, vodećeg
+								dobavljača i proizvođača parking sistema sa više
+								od 60 godina iskustva. Naši parking sistemi se
+								koriste širom Nemačke i olakšavaju ulazak i
+								izlazak iz velikih parking objekata zahvaljujući
+								inteligentnim tehnologijama.
 							</p>
 						</section>
 					</main>
@@ -785,6 +643,7 @@ const PoluautomaticNaslovna = () => {
 				</div>
 			</div>
 		</div>
+		// </div>
 	);
 };
 

@@ -26,7 +26,7 @@ const MultiBaseU20 = () => {
 						<header className="-mt-6 flex flex-col justify-center text-black">
 							<h1 className={`${styles.heading1} p-2`}>
 								<span className="rounded bg-accentColor px-1 py-1">
-									MultiBase U20 
+									MultiBase U20
 								</span>
 							</h1>
 						</header>
@@ -39,16 +39,27 @@ const MultiBaseU20 = () => {
 								>
 									NEVIDLJIV SISTEM PODNOG PARKINGA
 								</h2>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    MultiBase U20 može učiniti da dva automobila nestanu pod zemljom. 
+								<p className={`${styles.paragraph} mt-4`}>
+									MultiBase U20 može učiniti da dva automobila
+									nestanu pod zemljom.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
-                                    Umesto da se izdigne iznad površine, MultiBase U20 sistem podzemnog parkinga se spušta pod zemlju za dva nivoa. Gornja platforma je nivo sa zemljom kada je spuštena. Po celom sistemu se može voziti, omogućavajući stvaranje dodatnog parking prostora samo iz jednog prilaza. Alternativno, možete pretvoriti vašu baštu u nevidljivu garažu i povećati vrednost vaše imovine. U svakom slučaju, do dva vozila mogu biti bezbedno i praktično smeštena. 
-                                </p>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    Iskoristite maksimalno vaše parking prostore uz naše premium dodatke.
+									Umesto da se izdigne iznad površine,
+									MultiBase U20 sistem podzemnog parkinga se
+									spušta pod zemlju za dva nivoa. Gornja
+									platforma je nivo sa zemljom kada je
+									spuštena. Po celom sistemu se može voziti,
+									omogućavajući stvaranje dodatnog parking
+									prostora samo iz jednog prilaza.
+									Alternativno, možete pretvoriti vašu baštu u
+									nevidljivu garažu i povećati vrednost vaše
+									imovine. U svakom slučaju, do dva vozila
+									mogu biti bezbedno i praktično smeštena.
 								</p>
-
+								<p className={`${styles.paragraph} mt-4`}>
+									Iskoristite maksimalno vaše parking prostore
+									uz naše premium dodatke.
+								</p>
 							</section>
 
 							<section className="mb-8">
@@ -59,19 +70,45 @@ const MultiBaseU20 = () => {
 									className={`${styles.paragraph} custom-list mt-4`}
 								>
 									<li>Nezavisno parkiranje</li>
-                                    <li>Singl Platforma U20 (SP) za 2 vozila</li>
-                                    <li>Dubina jame za standardni tip: 425/430cm</li>
-                                    <li>Visina vozila: 165cm do 200cm</li>
-                                    <li>Dužina vozila: 500cm do 520cm</li>
-                                    <li>Širina platforme za standardni tip: 230/460cm, opciono do maksimalno: 270/540cm</li>
-                                    <li>Nosivost: 2.000kg po parking mestu, opciono maksimalno: 2.600kg (SP)</li>
-                                    <li>Horizontalni pristup svim nivoima parkiranja</li>
-                                    <li>U ravni sa zemljom i može se voziti po platformi</li>
-                                    <li>Vozne ploče: AluLongLife, opciono EasyWalk</li>
-                                    <li>Gornja ploča se može uklopiti sa okolinom; ispuna gornje ploče kao i odabir materijala je u obavezi investitora (asfalt, trava, beton drvo i dr.)</li>
+									<li>
+										Singl Platforma U20 (SP) za 2 vozila
+									</li>
+									<li>
+										Dubina jame za standardni tip: 425/430cm
+									</li>
+									<li>Visina vozila: 165cm do 200cm</li>
+									<li>Dužina vozila: 500cm do 520cm</li>
+									<li>
+										Širina platforme za standardni tip:
+										230/460cm, opciono do maksimalno:
+										270/540cm
+									</li>
+									<li>
+										Nosivost: 2.000kg po parking mestu,
+										opciono maksimalno: 2.600kg (SP)
+									</li>
+									<li>
+										Horizontalni pristup svim nivoima
+										parkiranja
+									</li>
+									<li>
+										U ravni sa zemljom i može se voziti po
+										platformi
+									</li>
+									<li>
+										Vozne ploče: AluLongLife, opciono
+										EasyWalk
+									</li>
+									<li>
+										Gornja ploča se može uklopiti sa
+										okolinom; ispuna gornje ploče kao i
+										odabir materijala je u obavezi
+										investitora (asfalt, trava, beton drvo i
+										dr.)
+									</li>
 								</ul>
 							</section>
-                            {/* https://youtu.be/W7-du9Btwwo */}
+							{/* https://youtu.be/W7-du9Btwwo */}
 							<section className="mb-8">
 								<h2 className={`${styles.heading2}`}>
 									PRIMENA multiparking sistema
@@ -81,7 +118,9 @@ const MultiBaseU20 = () => {
 										className={`${styles.paragraph} custom-list mt-4`}
 									>
 										<li>
-                                            Montaža u dvorištima ili na zelenim površinama stambenih i poslovnih zgrada, porodičnih kuća ili hotela
+											Montaža u dvorištima ili na zelenim
+											površinama stambenih i poslovnih
+											zgrada, porodičnih kuća ili hotela
 										</li>
 									</ul>
 									<img
@@ -100,7 +139,7 @@ const MultiBaseU20 = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className={`${styles.paddingY} relative`}>
 						<main className="p-2">
-                        <section className="mb-8">
+							<section className="mb-8">
 								<h2 className={`${styles.heading2}`}>
 									MultiBase U20 Vizuelizacija
 									<hr className="h-1 bg-accentColor"></hr>
@@ -124,9 +163,12 @@ const MultiBaseU20 = () => {
 								<h2 className={`${styles.heading2}`}>
 									Varijacije
 									<hr className="h-1 bg-accentColor"></hr>
-                                    <div className="flex flex-row flex-wrap justify-center items-start gap-4">
-                                        <img src={variationsImg1} className="w-full h-auto object-contain" />
-                                    </div>
+									<div className="flex flex-row flex-wrap items-start justify-center gap-4">
+										<img
+											src={variationsImg1}
+											className="h-auto w-full object-contain"
+										/>
+									</div>
 								</h2>
 							</section>
 							<section className="mb-8">
@@ -137,7 +179,7 @@ const MultiBaseU20 = () => {
 								<div className="flex flex-col gap-6 py-4 lg:flex-row lg:flex-wrap">
 									<DownloadButton
 										href={doc1}
-										text="Podatci o proizvodu (metrike)"
+										text="Podaci o proizvodu (metrike)"
 									></DownloadButton>
 									<DownloadButton
 										href={doc2}
@@ -151,7 +193,7 @@ const MultiBaseU20 = () => {
 										href={zip2}
 										text="MultiBase-U20-V2-DXF.zip"
 									></DownloadButton>
-                                    <DownloadButton
+									<DownloadButton
 										href={doc3}
 										text="MultiBase-u20-u20.pdf"
 									></DownloadButton>

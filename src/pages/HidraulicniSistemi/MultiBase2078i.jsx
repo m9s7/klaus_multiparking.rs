@@ -26,7 +26,7 @@ const MultiBase2078i = () => {
 						<header className="-mt-6 flex flex-col justify-center text-black">
 							<h1 className={`${styles.heading1} p-2`}>
 								<span className="rounded bg-accentColor px-1 py-1">
-									MultiBase 2078i 
+									MultiBase 2078i
 								</span>
 							</h1>
 						</header>
@@ -39,23 +39,34 @@ const MultiBase2078i = () => {
 								>
 									PREMIUM PARKER KOJI NAJVIŠE ŠTEDI PROSTORA
 								</h2>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    MultiBase 2078i je najefikasniji sistem za parkiranje kada je u pitanju ušteda prostora. 
+								<p className={`${styles.paragraph} mt-4`}>
+									MultiBase 2078i je najefikasniji sistem za
+									parkiranje kada je u pitanju ušteda
+									prostora.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
-                                    U pordjenju sa MultiBase 2072i zahteva do 30cm manju visinu prostora za ugradnju parking sistema menjanjem nagiba platforme.
+									U poređenju sa MultiBase 2072i zahteva do
+									30cm manju visinu prostora za ugradnju
+									parking sistema menjanjem nagiba platforme.
 								</p>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    Zbog pozicije stubova, vrata automobila se mogu široko otvoriti i time omogućiti lakši ulazak i izlazak iz vozila.
+								<p className={`${styles.paragraph} mt-4`}>
+									Zbog pozicije stubova, vrata automobila se
+									mogu široko otvoriti i time omogućiti lakši
+									ulazak i izlazak iz vozila.
 								</p>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    Omogućava parkiranje vozila visine do 215cm. 
+								<p className={`${styles.paragraph} mt-4`}>
+									Omogućava parkiranje vozila visine do 215cm.
 								</p>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                    Sa elektro-hidrauličnim sinhronizacionim sistemom, Multibase 2078i je ekološki prihvatljiviji, zahteva manje održavanja i sveukupno je ekonomičniji od prethodnih sistema sa mehaničkom sinhronizacijom.
+								<p className={`${styles.paragraph} mt-4`}>
+									Sa elektro-hidrauličnim sinhronizacionim
+									sistemom, Multibase 2078i je ekološki
+									prihvatljiviji, zahteva manje održavanja i
+									sveukupno je ekonomičniji od prethodnih
+									sistema sa mehaničkom sinhronizacijom.
 								</p>
-                                <p className={`${styles.paragraph} mt-4`}>
-                                Možete unaprediti vaš MultiBase 2078i sa našom dodatnom opremom.
+								<p className={`${styles.paragraph} mt-4`}>
+									Možete unaprediti vaš MultiBase 2078i sa
+									našom dodatnom opremom.
 								</p>
 
 								{/* <p
@@ -71,7 +82,6 @@ const MultiBase2078i = () => {
 									od prethodnih sistema sa mehaničkom
 									sinhronizacijom.
 								</p> */}
-
 							</section>
 
 							<section className="mb-8">
@@ -82,15 +92,37 @@ const MultiBase2078i = () => {
 									className={`${styles.paragraph} custom-list mt-4`}
 								>
 									<li>Nezavisno parkiranje</li>
-                                    <li>Singl Platforma (SP) za 2 vozila ili Dabl Platforma (DP) za 4 vozila</li>
-                                    <li>Ukupna visina za standardni tip: 335cm</li>
-                                    <li>Dubina jame za standardni tip: 180/185cm</li>
-                                    <li>Visina vozila: 150cm do 215cm</li>
-                                    <li>Dužina vozila: 500cm do 520cm</li>
-                                    <li>Širina platforme za standardni tip: 230/460cm, opciono do maksimalno: 270/540cm</li>
-                                    <li>Nosivost: 2.000kg po parking mestu, opciono maksimalno: 2.600kg za SP/DP ili maksimalno 3.000kg SP</li>
-                                    <li>Horizontalni pristup gornjim nivoima za parkiranje, pristup donjim nivoima za parkiranje je pod blagim nagibom</li>
-                                    <li>Vozne ploče: StandardGrip, opciono AluLongLife ili EasyWalk</li>
+									<li>
+										Singl Platforma (SP) za 2 vozila ili
+										Dabl Platforma (DP) za 4 vozila
+									</li>
+									<li>
+										Ukupna visina za standardni tip: 335cm
+									</li>
+									<li>
+										Dubina jame za standardni tip: 180/185cm
+									</li>
+									<li>Visina vozila: 150cm do 215cm</li>
+									<li>Dužina vozila: 500cm do 520cm</li>
+									<li>
+										Širina platforme za standardni tip:
+										230/460cm, opciono do maksimalno:
+										270/540cm
+									</li>
+									<li>
+										Nosivost: 2.000kg po parking mestu,
+										opciono maksimalno: 2.600kg za SP/DP ili
+										maksimalno 3.000kg SP
+									</li>
+									<li>
+										Horizontalni pristup gornjim nivoima za
+										parkiranje, pristup donjim nivoima za
+										parkiranje je pod blagim nagibom
+									</li>
+									<li>
+										Vozne ploče: StandardGrip, opciono
+										AluLongLife ili EasyWalk
+									</li>
 								</ul>
 							</section>
 
@@ -139,7 +171,7 @@ const MultiBase2078i = () => {
 								<h2 className={`${styles.heading2}`}>
 									Varijacije
 									<hr className="h-1 bg-accentColor"></hr>
-                                    <img src={variationsImg}></img>
+									<img src={variationsImg}></img>
 								</h2>
 							</section>
 							<section className="mb-8">
@@ -150,7 +182,7 @@ const MultiBase2078i = () => {
 								<div className="flex flex-col gap-6 py-4 lg:flex-row lg:flex-wrap">
 									<DownloadButton
 										href={doc1}
-										text="Podatci o proizvodu (metrike)"
+										text="Podaci o proizvodu (metrike)"
 									></DownloadButton>
 									<DownloadButton
 										href={doc2}

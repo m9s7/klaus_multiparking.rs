@@ -23,7 +23,7 @@ const MultiBase2072iOutdoor = () => {
 						<header className="-mt-6 flex flex-col justify-center text-black">
 							<h1 className={`${styles.heading1} p-2`}>
 								<span className="rounded bg-accentColor px-1 py-1">
-                                    MultiBase 2072i Za Spoljnu Upotrebu
+									MultiBase 2072i Za Spoljnu Upotrebu
 								</span>
 							</h1>
 						</header>
@@ -37,22 +37,31 @@ const MultiBase2072iOutdoor = () => {
 									NAJKOMFORNIJI PREMIUM PARKER, ČAK I SPOLJA
 								</h2>
 								<p className={`${styles.paragraph} mt-4`}>
-                                    MultiBase 2072i sistem za spoljnu upotrebu je opremljen tehnologijom protiv vremenskih nepogoda, tako da uz ovaj sistem možete uštedeti vreme i novac koji je potreban za izgradnju garaže.
+									MultiBase 2072i sistem za spoljnu upotrebu
+									je opremljen tehnologijom protiv vremenskih
+									nepogoda, tako da uz ovaj sistem možete
+									uštedeti vreme i novac koji je potreban za
+									izgradnju garaže.
 								</p>
 
 								<p className={`${styles.paragraph} mt-4`}>
-                                    Ovaj sistem je jedan od najkomfornijih sistema na tržištu. Zbog pozicije stubova, vrata automobila se mogu široko otvoriti i time omogućiti lakši ulazak i izlazak iz vozila.
+									Ovaj sistem je jedan od najkomfornijih
+									sistema na tržištu. Zbog pozicije stubova,
+									vrata automobila se mogu široko otvoriti i
+									time omogućiti lakši ulazak i izlazak iz
+									vozila.
 								</p>
 
 								<p className={`${styles.paragraph} mt-4`}>
-                                    Omogućava parkiranje vozila visine do 215cm.
+									Omogućava parkiranje vozila visine do 215cm.
 								</p>
 
 								<p
 									className={`${styles.paragraph} mt-4 font-semibold italic`}
 								>
 									Sa elektro-hidrauličnim sinhronizacionim
-									sistemom, Multibase 2072i za spoljnu upotrebu je
+									sistemom, Multibase 2072i za spoljnu
+									upotrebu je
 									<span className="rounded bg-accentColor">
 										{' '}
 										ekološki prihvatljiviji, zahteva manje
@@ -63,8 +72,9 @@ const MultiBase2072iOutdoor = () => {
 								</p>
 
 								<p className={`${styles.paragraph} mt-4`}>
-									Možete unaprediti vaš MultiBase 2072i sistem za spoljnu upotrebu sa
-									našom dodatnom opremom.
+									Možete unaprediti vaš MultiBase 2072i sistem
+									za spoljnu upotrebu sa našom dodatnom
+									opremom.
 								</p>
 							</section>
 
@@ -145,6 +155,22 @@ const MultiBase2072iOutdoor = () => {
 						<main className="p-2">
 							<section className="mb-8">
 								<h2 className={`${styles.heading2}`}>
+									MultiBase 2072i za spoljnu upotrebu
+									Vizuelizacija
+									<hr className="h-1 bg-accentColor"></hr>
+								</h2>
+								<iframe
+									className="mt-4 aspect-video w-full"
+									src="https://www.youtube.com/embed/MozBU9We814"
+									title="YouTube video player"
+									frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+									referrerPolicy="strict-origin-when-cross-origin"
+									allowFullScreen
+								></iframe>
+							</section>
+							<section className="mb-8">
+								<h2 className={`${styles.heading2}`}>
 									Reference
 									<hr className="h-1 bg-accentColor"></hr>
 								</h2>
@@ -153,20 +179,24 @@ const MultiBase2072iOutdoor = () => {
 								<h2 className={`${styles.heading2}`}>
 									Varijacije
 									<hr className="h-1 bg-accentColor"></hr>
-                                    <div className="flex flex-row flex-wrap justify-center items-start gap-4">
-                                        <img src={variationsImg1} className="w-full h-auto object-contain" />
-                                    </div>
+									<div className="flex flex-row flex-wrap items-start justify-center gap-4">
+										<img
+											src={variationsImg1}
+											className="h-auto w-full object-contain"
+										/>
+									</div>
 								</h2>
 							</section>
 							<section className="mb-8">
 								<h2 className={`${styles.heading2}`}>
-                                    MultiBase 2072i Za Spoljnu Upotrebu Preuzimanja
+									MultiBase 2072i Za Spoljnu Upotrebu
+									Preuzimanja
 									<hr className="h-1 bg-accentColor"></hr>
 								</h2>
 								<div className="flex flex-col gap-6 py-4 lg:flex-row lg:flex-wrap">
 									<DownloadButton
 										href={doc1}
-										text="Podatci o proizvodu (metrike)"
+										text="Podaci o proizvodu (metrike)"
 									></DownloadButton>
 									<DownloadButton
 										href={doc2}
