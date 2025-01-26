@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from '../../style';
 import Footer from '../../components/Footer';
 
-import img1 from '../../assets/header-produktgruppe-parker.jpg';
+import img1 from './../../assets/header-produktgruppe-parker.jpg';
 
 const FrontPage = () => {
 	return (
