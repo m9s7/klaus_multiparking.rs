@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/TrendVario6300/header-produkt-halbautom-parksystem-trendvario6300.jpg';
 
@@ -14,18 +14,19 @@ import zip2 from './../../assets/products/TrendVario6300/TrendVario-6300-DXF.zip
 import zip3 from './../../assets/products/TrendVario6300plus/TrendVario-6300-6300plus-BIM.zip';
 import doc5 from './../../assets/products/TrendVario6100/Fire-protection-information_EN.pdf';
 
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
 
-import ImageComponent from '../../components/DoorTypesComponent';
+import ImageComponent from './../../components/DoorTypesComponent';
 
-import doorImg0 from '../../assets/products/DoorTypes/v-gate-trendvario-vertikaltor.jpg';
+import doorImg0 from './../../assets/products/DoorTypes/v-gate-trendvario-vertikaltor.jpg';
 
-import doorImg1 from '../../assets/products/DoorTypes/tore-alulochblech-300x200px.jpg';
-import doorImg2 from '../../assets/products/DoorTypes/tore-stahlsickenblech-300x200px.jpg';
-import doorImg3 from '../../assets/products/DoorTypes/tore-drahtgitter-verzinkt-300x200px.jpg';
-import doorImg4 from '../../assets/products/DoorTypes/tore-holzfuellung-300x200px.jpg';
-import doorImg5 from '../../assets/products/DoorTypes/tore-aluglattblech-300x200px.jpg';
-import doorImg6 from '../../assets/products/DoorTypes/tore-sicherheitsglas-300x200px.jpg';
+import doorImg1 from './../../assets/products/DoorTypes/tore-alulochblech-300x200px.jpg';
+import doorImg2 from './../../assets/products/DoorTypes/tore-stahlsickenblech-300x200px.jpg';
+import doorImg3 from './../../assets/products/DoorTypes/tore-drahtgitter-verzinkt-300x200px.jpg';
+import doorImg4 from './../../assets/products/DoorTypes/tore-holzfuellung-300x200px.jpg';
+import doorImg5 from './../../assets/products/DoorTypes/tore-aluglattblech-300x200px.jpg';
+import doorImg6 from './../../assets/products/DoorTypes/tore-sicherheitsglas-300x200px.jpg';
+import { Link } from 'react-router-dom';
 
 const TrendVario6300 = () => {
 	return (
@@ -79,7 +80,14 @@ const TrendVario6300 = () => {
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
 									Možete unaprediti vaš TrendVario 6300 sa
-									našom dodatnom opremom.{' '}
+									našom{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatnom opremom
+									</Link>
+									.
 								</p>
 							</section>
 
@@ -119,14 +127,50 @@ const TrendVario6300 = () => {
 										parkiranja{' '}
 									</li>
 									<li>
-										{' '}
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk{' '}
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 									<li>
-										{' '}
-										Upravljanje: Pomoću čipa, daljinskog
-										upravljača ili aplikacije{' '}
+										Upravljanje: Pomoću{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/SmartHome"
+										>
+											čipa
+										</Link>
+										,{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/SmartHome"
+										>
+											daljinskog upravljača
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/SmartHome"
+										>
+											aplikacije
+										</Link>
 									</li>
 								</ul>
 							</section>

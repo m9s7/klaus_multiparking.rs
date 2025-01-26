@@ -1,6 +1,21 @@
-import Footer from '../../components/Footer';
-import styles from '../../style';
+import Footer from './../../components/Footer';
+import styles from './../../style';
 import { Link } from 'react-router-dom';
+
+import img1 from './../../assets/header-produktgruppe-parker.jpg';
+
+import gif1 from './../../assets/NEU_schemaclip-multibase-2072i.gif';
+import gif2 from './../../assets/NEU_schemaclip-multibase-2078i.gif';
+import gif3 from './../../assets/NEU_schemaclip-multibase-2042.gif';
+import gif4 from './../../assets/NEU_schemaclip-multibase-g63.gif';
+import gif5 from './../../assets/NEU_schemaclip-multibase-u10.gif';
+import gif6 from './../../assets/NEU_schemaclip-multibase-u20.gif';
+import gif7 from './../../assets/NEU_schemaclip-singlevario-2061.gif';
+
+import gif8 from './../../assets/NEU_schemaclip-multibase-2072i.gif';
+import gif9 from './../../assets/NEU_schemaclip-singlevario-2061-outdoor.gif';
+import gif10 from './../../assets/NEU_schemaclip-multibase-2072i-outdoor.gif';
+import gif11 from './../../assets/NEU_schemaclip-multibase-g63-outdoor.gif';
 
 const Naslovna = () => {
 	return (
@@ -9,7 +24,7 @@ const Naslovna = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className="relative w-full">
 						<img
-							src="src\assets\header-produktgruppe-parker.jpg"
+							src={img1}
 							alt="Duplex Garaže i Dvostruki Parkeri iz KLAUS
                                             Multiparkinga slika"
 							className="h-auto w-full object-cover"
@@ -384,8 +399,7 @@ const Naslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-multibase-2072i.gif"
-										alt="animation graphic scheme multibase 2072i"
+										src={gif1}
 										loading="lazy"
 									/>
 								</div>
@@ -460,8 +474,7 @@ const Naslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-multibase-2078i.gif"
-										alt="animation graphic scheme multibase 2078i"
+										src={gif2}
 										loading="lazy"
 									/>
 								</div>
@@ -514,8 +527,7 @@ const Naslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-multibase-2042.gif"
-										alt="animation graphic scheme multibase 2042"
+										src={gif3}
 										loading="lazy"
 									/>
 								</div>
@@ -571,8 +583,7 @@ const Naslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-multibase-g63.gif"
-										alt="animation graphic scheme multibase g63"
+										src={gif4}
 										loading="lazy"
 									/>
 								</div>
@@ -645,14 +656,12 @@ const Naslovna = () => {
 									<div className="mb-12 mt-4 lg:w-2/5">
 										<img
 											className="h-auto object-contain"
-											src="src\assets\NEU_schemaclip-multibase-u10.gif"
-											alt="animation graphic scheme multibase u10"
+											src={gif5}
 											loading="lazy"
 										/>
 										<img
 											className="h-auto object-contain"
-											src="src\assets\NEU_schemaclip-multibase-u20.gif"
-											alt="animation graphic scheme multibase u20"
+											src={gif6}
 											loading="lazy"
 										/>
 									</div>
@@ -705,8 +714,7 @@ const Naslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-singlevario-2061.gif"
-										alt="animation graphic scheme singlevario 2061"
+										src={gif7}
 										loading="lazy"
 									/>
 								</div>
@@ -770,8 +778,7 @@ const Naslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-multibase-2072i.gif"
-										alt="animation graphic scheme multibase 2072i"
+										src={gif8}
 										loading="lazy"
 									/>
 								</div>
@@ -837,21 +844,18 @@ const Naslovna = () => {
 										<div className="lg:flex lg:flex-row">
 											<img
 												className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-												src="src\assets\NEU_schemaclip-singlevario-2061-outdoor.gif"
-												alt="animation graphic scheme singlevario 2061 outdoor"
+												src={gif9}
 												loading="lazy"
 											/>
 											<img
 												className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-												src="src\assets\NEU_schemaclip-multibase-2072i-outdoor.gif"
-												alt="animation graphic scheme multibase 2072i outdoor"
+												src={gif10}
 												loading="lazy"
 											/>
 										</div>
 										<img
 											className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-											src="src\assets\NEU_schemaclip-multibase-g63-outdoor.gif"
-											alt="animation graphic scheme multibase g63 outdoor"
+											src={gif11}
 											loading="lazy"
 										/>
 									</div>

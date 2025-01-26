@@ -1,9 +1,9 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
 
-import ImageComponent from '../../components/DoorTypesComponent';
+import ImageComponent from './../../components/DoorTypesComponent';
 
 import bannerIMG from './../../assets/products/TrendVario6100/header-produkt-trendvario-6100.jpg';
 
@@ -18,12 +18,14 @@ import zip2 from './../../assets/products/TrendVario6100/TrendVario-6100+-DXF.zi
 import zip3 from './../../assets/products/TrendVario6100/TrendVario-6100-6100plus-BIM.zip';
 import doc5 from './../../assets/products/TrendVario6100/Fire-protection-information_EN.pdf';
 
-import doorImg1 from '../../assets/products/DoorTypes/tore-alulochblech-300x200px.jpg';
-import doorImg2 from '../../assets/products/DoorTypes/tore-stahlsickenblech-300x200px.jpg';
-import doorImg3 from '../../assets/products/DoorTypes/tore-drahtgitter-verzinkt-300x200px.jpg';
-import doorImg4 from '../../assets/products/DoorTypes/tore-holzfuellung-300x200px.jpg';
-import doorImg5 from '../../assets/products/DoorTypes/tore-aluglattblech-300x200px.jpg';
-import doorImg6 from '../../assets/products/DoorTypes/tore-sicherheitsglas-300x200px.jpg';
+import doorImg1 from './../../assets/products/DoorTypes/tore-alulochblech-300x200px.jpg';
+import doorImg2 from './../../assets/products/DoorTypes/tore-stahlsickenblech-300x200px.jpg';
+import doorImg3 from './../../assets/products/DoorTypes/tore-drahtgitter-verzinkt-300x200px.jpg';
+import doorImg4 from './../../assets/products/DoorTypes/tore-holzfuellung-300x200px.jpg';
+import doorImg5 from './../../assets/products/DoorTypes/tore-aluglattblech-300x200px.jpg';
+import doorImg6 from './../../assets/products/DoorTypes/tore-sicherheitsglas-300x200px.jpg';
+
+import { Link } from 'react-router-dom';
 
 const TrendVario6100 = () => {
 	return (
@@ -77,7 +79,14 @@ const TrendVario6100 = () => {
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
 									Možete unaprediti vaš TrendVario 6100 sa
-									našom dodatnom opremom.{' '}
+									našom{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatnom opremom
+									</Link>
+									.
 								</p>
 							</section>
 
@@ -121,14 +130,50 @@ const TrendVario6100 = () => {
 										parkiranja{' '}
 									</li>
 									<li>
-										{' '}
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk{' '}
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 									<li>
-										{' '}
-										Upravljanje: Pomoću čipa, daljinskog
-										upravljača ili aplikacije{' '}
+										Upravljanje: Pomoću{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/SmartHome"
+										>
+											čipa
+										</Link>
+										,{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/SmartHome"
+										>
+											daljinskog upravljača
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/SmartHome"
+										>
+											aplikacije
+										</Link>
 									</li>
 								</ul>
 							</section>

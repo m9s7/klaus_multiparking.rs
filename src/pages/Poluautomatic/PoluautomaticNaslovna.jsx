@@ -2,6 +2,8 @@ import Footer from '../../components/Footer';
 import styles from '../../style';
 import { Link } from 'react-router-dom';
 
+import img1 from './../../assets/header-produktgruppe-halbautomatische-parksysteme.jpg';
+
 const PoluautomaticNaslovna = () => {
 	return (
 		<>
@@ -9,9 +11,7 @@ const PoluautomaticNaslovna = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className="relative w-full">
 						<img
-							src="src\assets\header-produktgruppe-halbautomatische-parksysteme.jpg"
-							alt="Duplex Garaže i Dvostruki Parkeri iz KLAUS
-                                            Multiparkinga slika"
+							src={img1}
 							className="h-auto w-full object-cover"
 						></img>
 						<header className="-mt-10 flex flex-col justify-center text-black">
@@ -59,13 +59,26 @@ const PoluautomaticNaslovna = () => {
 									unutar sistema. Kada je vreme za odlazak,
 									korisnik može povratiti svoje vozilo
 									pritiskom na dugme ili putem elektronskih
-									operativnih sistema kao što je SmartApp.
+									operativnih sistema kao što je{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/SmartHome"
+									>
+										SmartApp
+									</Link>
+									.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
-									Besplatna "Park & Smile Air" SmartApp za iOS
-									i Android osigurava još brže parkiranje i
-									izlazak - bez dugog čekanja ili traženja
-									parking mesta.
+									Besplatna{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/SmartHome"
+									>
+										"Park & Smile Air" SmartApp
+									</Link>{' '}
+									za iOS i Android osigurava još brže
+									parkiranje i izlazak - bez dugog čekanja ili
+									traženja parking mesta.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
 									Iskoristite sledeće karakteristike naših
@@ -85,8 +98,13 @@ const PoluautomaticNaslovna = () => {
 									</li>
 									<li>
 										Još bolje iskorišćenje dostupnog parking
-										prostora u poređenju sa našim efikasnim
-										modelima parkera
+										prostora u poređenju sa našim efikasnim{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/HidraulicniSistemi"
+										>
+											modelima parkera
+										</Link>
 									</li>
 									<li>
 										Platforma sada može biti pokrenuta kada
@@ -210,8 +228,28 @@ const PoluautomaticNaslovna = () => {
 											</li>
 											<li>
 												Kontrolisano putem elektronskih
-												pomagala (SmartChip,
-												SmartPortable ili SmartApp)
+												pomagala (
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartChip
+												</Link>
+												,{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartPortable
+												</Link>{' '}
+												ili{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartApp
+												</Link>
+												)
 											</li>
 											<li>
 												Za prizemne etaže i podzemlje
@@ -322,8 +360,28 @@ const PoluautomaticNaslovna = () => {
 											</li>
 											<li>
 												Kontrolisano putem elektronskih
-												pomagala (SmartChip,
-												SmartPortable ili SmartApp)
+												pomagala (
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartChip
+												</Link>
+												,{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartPortable
+												</Link>{' '}
+												ili{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartApp
+												</Link>
+												)
 											</li>
 											<li>
 												Za prizemne etaže i/ili
@@ -397,8 +455,28 @@ const PoluautomaticNaslovna = () => {
 											</li>
 											<li>
 												Kontrolisano putem elektronskih
-												pomagala (SmartChip,
-												SmartPortable ili SmartApp)
+												pomagala (
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartChip
+												</Link>
+												,{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartPortable
+												</Link>{' '}
+												ili{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartApp
+												</Link>
+												)
 											</li>
 											<li>
 												Vozila su zaštićena od
@@ -485,8 +563,28 @@ const PoluautomaticNaslovna = () => {
 											</li>
 											<li>
 												Kontrolisano putem elektronskih
-												pomagala (SmartChip,
-												SmartPortable ili SmartApp)
+												pomagala (
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartChip
+												</Link>
+												,{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartPortable
+												</Link>{' '}
+												ili{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartApp
+												</Link>
+												)
 											</li>
 											<li>
 												Za podzemlje, prizemlje i gornje
@@ -556,8 +654,28 @@ const PoluautomaticNaslovna = () => {
 											</li>
 											<li>
 												Kontrolisano putem elektronskih
-												pomagala (SmartChip,
-												SmartPortable ili SmartApp)
+												pomagala (
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartChip
+												</Link>
+												,{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartPortable
+												</Link>{' '}
+												ili{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/SmartHome"
+												>
+													SmartApp
+												</Link>
+												)
 											</li>
 											<li>
 												Za podzemlje, prizemlje i gornje
