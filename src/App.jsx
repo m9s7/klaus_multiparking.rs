@@ -13,6 +13,7 @@ import { SingleVario2061Outdoor } from './pages';
 import { MultiBase2072iSpecial } from './pages';
 
 import { PoluautomaticNaslovna } from './pages';
+import { ParkingPaleteNaslovna } from './pages';
 import { ParkBoardPE } from './pages';
 import { ParkBoardPH } from './pages';
 import { ParkBoardPQ } from './pages';
@@ -28,10 +29,16 @@ import { MasterVarioR2L } from './pages';
 import { MasterVarioR3C } from './pages';
 import { MasterVarioR3L } from './pages';
 import { MasterVarioF2 } from './pages';
+import { DodatnaOpremaNaslovna } from './pages';
+import { SmartHome } from './pages';
+import { EParking } from './pages';
+
+import { Kontakt } from './pages';
+import { Naslovna } from './pages';
 
 import ScrollToTop from './utils/ScrollToTop';
-
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import ScrollToHashHandler from './utils/ScrollToHashHandler';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
 	return (
@@ -39,8 +46,16 @@ const App = () => {
 			<Router>
 				<Navbar />
 				<ScrollToTop />
+				<ScrollToHashHandler />
 				<Routes>
-					<Route path="/" element={<HidraulicniSistemi_Naslovna />} />
+					{/* Naslovna */}
+					<Route path="/" element={<Naslovna />} />
+
+					{/* HidraulicniSistemi */}
+					<Route
+						path="/HidraulicniSistemi"
+						element={<HidraulicniSistemi_Naslovna />}
+					/>
 					<Route
 						path="/MultiBase2072i"
 						element={<MultiBase2072i />}
@@ -74,15 +89,21 @@ const App = () => {
 						element={<MultiBase2072iSpecial />}
 					/>
 
+					{/* Pallete */}
 					<Route
-						path="/PoluautomaticNaslovna"
-						element={<PoluautomaticNaslovna />}
+						path="/ParkingPalete"
+						element={<ParkingPaleteNaslovna />}
 					/>
 					<Route path="/ParkBoardPE" element={<ParkBoardPE />} />
 					<Route path="/ParkBoardPH" element={<ParkBoardPH />} />
 					<Route path="/ParkBoardPQ" element={<ParkBoardPQ />} />
 					<Route path="/ParkDiscD450" element={<ParkDiscD450 />} />
+
 					{/* Poluautomacki Sistemi */}
+					<Route
+						path="/PoluautomackiSistemi"
+						element={<PoluautomaticNaslovna />}
+					/>
 					<Route
 						path="/TrendVario6100"
 						element={<TrendVario6100 />}
@@ -103,6 +124,7 @@ const App = () => {
 						path="/TrendVario6300plus"
 						element={<TrendVario6300plus />}
 					/>
+
 					{/* Automacki Sistemi */}
 					<Route
 						path="/AutomatskiSistemi"
@@ -125,6 +147,18 @@ const App = () => {
 						element={<MasterVarioR3L />}
 					/>
 					<Route path="/MasterVarioF2" element={<MasterVarioF2 />} />
+
+					{/* Dodatna Oprema */}
+					<Route
+						path="/DodatnaOprema"
+						element={<DodatnaOpremaNaslovna />}
+					/>
+					<Route path="/SmartHome" element={<SmartHome />} />
+					<Route path="/EParking" element={<EParking />} />
+
+					{/* General */}
+					<Route path="/Kontakt" element={<Kontakt />} />
+					<Route path="/Naslovna" element={<Naslovna />} />
 				</Routes>
 			</Router>
 		</div>

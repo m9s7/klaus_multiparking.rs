@@ -153,12 +153,6 @@ const ParkBoardPE = () => {
 							</section>
 							<section className="mb-8">
 								<h2 className={`${styles.heading2}`}>
-									Reference
-									<hr className="h-1 bg-accentColor"></hr>
-								</h2>
-							</section>
-							<section className="mb-8">
-								<h2 className={`${styles.heading2}`}>
 									Varijacije
 									<hr className="h-1 bg-accentColor"></hr>
 									<div className="flex flex-row flex-wrap items-start justify-center gap-4">

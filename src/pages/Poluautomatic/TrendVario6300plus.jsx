@@ -16,6 +16,19 @@ import zip2 from './../../assets/products/TrendVario6300plus/TrendVario-6300+-DX
 import zip3 from './../../assets/products/TrendVario6300plus/TrendVario-6300-6300plus-BIM.zip';
 import doc5 from './../../assets/products/TrendVario6100/Fire-protection-information_EN.pdf';
 
+import Footer from '../../components/Footer';
+
+import ImageComponent from '../../components/DoorTypesComponent';
+
+import doorImg0 from '../../assets/products/DoorTypes/v-gate-trendvario-vertikaltor.jpg';
+
+import doorImg1 from '../../assets/products/DoorTypes/tore-alulochblech-300x200px.jpg';
+import doorImg2 from '../../assets/products/DoorTypes/tore-stahlsickenblech-300x200px.jpg';
+import doorImg3 from '../../assets/products/DoorTypes/tore-drahtgitter-verzinkt-300x200px.jpg';
+import doorImg4 from '../../assets/products/DoorTypes/tore-holzfuellung-300x200px.jpg';
+import doorImg5 from '../../assets/products/DoorTypes/tore-aluglattblech-300x200px.jpg';
+import doorImg6 from '../../assets/products/DoorTypes/tore-sicherheitsglas-300x200px.jpg';
+
 const TrendVario6300plus = () => {
 	return (
 		<>
@@ -201,18 +214,102 @@ const TrendVario6300plus = () => {
 										Standardni materijal vrata: perforirana
 										aluminijumska ploča{' '}
 									</li>
-									<li> Opcije za klizna vrata: </li>
 									<li>
-										Postoji oko 50 različitih varijanti
-										materijala i boja
+										{' '}
+										Opcije za klizna vrata:
+										<ul
+											className={`${styles.paragraph} custom-list mt-4`}
+										>
+											<li>
+												Postoji oko 50 različitih
+												varijanti materijala i boja
+											</li>
+											<li>
+												Dostupne opcije su: Staklo
+												(laminirano sigurnosno staklo),
+												drvo (nordijska smrča),
+												aluminijum, čelik i mnoge druge{' '}
+											</li>
+											<li>
+												{' '}
+												Zamenljivi paneli i segmenti{' '}
+											</li>
+										</ul>
 									</li>
-									<li>
-										Dostupne opcije su: Staklo (laminirano
-										sigurnosno staklo), drvo (nordijska
-										smrča), aluminijum, čelik i mnoge druge{' '}
-									</li>
-									<li> Zamenljivi paneli i segmenti </li>
 								</ul>
+							</section>
+							<section className="mb-8">
+								<h2 className={`${styles.heading2}`}>
+									KLAUS-V VERTIKALNA VRATA:
+								</h2>
+								{/* className="grid grid-cols-1 gap-6 md:grid-cols-2" */}
+								<div className="mt-4 flex flex-col gap-2">
+									<ImageComponent
+										imageUrl={doorImg0}
+										heading="Perforirane aluminijumske ploče:"
+										listItems={[
+											'Debljina 1.5 mm, RV 5/8 E6/EV1, anodizovano, debljina sloja približno 20 μm',
+											'Ventilacija: 30%',
+										]}
+									/>
+								</div>
+							</section>
+							<section className="mb-8">
+								<h2 className={`${styles.heading2}`}>
+									VARIJANTE KLIZNIH VRATA:
+								</h2>
+								{/* className="grid grid-cols-1 gap-6 md:grid-cols-2" */}
+								<div className="mt-4 flex flex-col gap-2">
+									<ImageComponent
+										imageUrl={doorImg1}
+										heading="Perforirane aluminijumske ploče:"
+										listItems={[
+											'Debljina 2 mm, RV 5/8 E6/EV1, anodizovano, debljina sloja približno 20 μm',
+											'Ventilacija: 40%',
+										]}
+									/>
+									<ImageComponent
+										imageUrl={doorImg3}
+										heading="Rešetka od čelične žice:"
+										listItems={[
+											'Veličina mreže: 12x12 mm',
+											'Debljina 2mm, galvanizovano, debljina sloja približno 20 μm',
+											'Ventilacija: 70%',
+										]}
+									/>
+									<ImageComponent
+										imageUrl={doorImg2}
+										heading="Običan aluminijumski lim:"
+										listItems={[
+											'Debljina 2 mm, E6/EV1, anodizovano, debljina sloja približno 20 μm',
+										]}
+									/>
+									<ImageComponent
+										imageUrl={doorImg5}
+										heading="Čelična ploča:"
+										listItems={[
+											'Debljina 1 mm, (vruća galvanizacija),debljina sloja približno 20 μm',
+											'Dodatni sloj u prahu',
+											'Debljina sloja približno 25 μm spolja i 12 μm unutra',
+											'Više RAL boja dostupno',
+										]}
+									/>
+									<ImageComponent
+										imageUrl={doorImg4}
+										heading="Drvena oplata, nordijska smrča:"
+										listItems={[
+											'Nordijska smrča, klasa A',
+											'Prethodno impregnirano (bezbojno)',
+										]}
+									/>
+									<ImageComponent
+										imageUrl={doorImg6}
+										heading="Laminirano sigurnosno staklo:"
+										listItems={[
+											'LSG koji se sastoji od ESG 8/4 mm',
+										]}
+									/>
+								</div>
 							</section>
 							<section className="mb-8">
 								<h2 className={`${styles.heading2}`}>
@@ -300,19 +397,8 @@ const TrendVario6300plus = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+
+			<Footer></Footer>
 		</>
 	);
 };
