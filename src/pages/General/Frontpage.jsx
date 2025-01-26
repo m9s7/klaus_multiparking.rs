@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import styles from '../../style';
 import Footer from '../../components/Footer';
 
+import img1 from '../../assets/header-produktgruppe-parker.jpg';
+
 const FrontPage = () => {
 	return (
 		<>
@@ -72,7 +74,7 @@ const FrontPage = () => {
 							{/* MOBILE (below md) */}
 							<div className="block w-full md:hidden">
 								<img
-									src="src/assets/header-produktgruppe-parker.jpg"
+									src={img1}
 									className="h-auto w-full rounded-md object-cover"
 								/>
 
