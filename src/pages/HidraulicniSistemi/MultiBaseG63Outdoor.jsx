@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/MultiBaseG63Outdoor/header-produkt-multibase-g63-outdoor.jpg';
 import NEU_schemaclip_multibase_G63_IMG from './../../assets/NEU_schemaclip-multibase-g63-outdoor.gif';
@@ -10,7 +10,8 @@ import variationsImg3 from './../../assets/products/MultiBaseG63Outdoor/multibas
 
 import doc1 from './../../assets/products/MultiBaseG63Outdoor/58650230.pdf';
 import doc2 from './../../assets/products/MultiBaseG63Outdoor/58655530.pdf';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBaseG63Outdoor = () => {
 	return (
@@ -58,8 +59,14 @@ const MultiBaseG63Outdoor = () => {
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
 									Možete unaprediti vaš MultiBase G63 sistem
-									za spoljnu upotrebu sa našom dodatnom
-									opremom.
+									za spoljnu upotrebu sa našom{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatnom opremom
+									</Link>
+									.
 								</p>
 							</section>
 
@@ -99,8 +106,27 @@ const MultiBaseG63Outdoor = () => {
 										parkiranja
 									</li>
 									<li>
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 								</ul>
 							</section>

@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/MultiBaseU10/multibase-u10.png';
 import NEU_schemaclip_multibase_U10_IMG from './../../assets/NEU_schemaclip-multibase-u10.gif';
@@ -11,7 +11,8 @@ import doc2 from './../../assets/products/MultiBaseU10/58864820.pdf';
 import zip1 from './../../assets/products/MultiBaseU10/MultiBase-U10-DWG.zip';
 import zip2 from './../../assets/products/MultiBaseU10/MultiBase-U10-DXF.zip';
 import doc3 from './../../assets/products/MultiBaseU10/multibase-u10-u20.pdf';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBaseU10 = () => {
 	return (
@@ -52,8 +53,14 @@ const MultiBaseU10 = () => {
 									možete urediti kako god vi želite.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
-									Možete unaprediti vaš MultiBase U10 sa našom
-									dodatnom opremom.
+									Možete unaprediti vaš MultiBase U10 sa našom{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatnom opremom
+									</Link>
+									.
 								</p>
 							</section>
 
@@ -87,8 +94,20 @@ const MultiBaseU10 = () => {
 										parkiranja
 									</li>
 									<li>
-										Vozne ploče: AluLongLife, opciono
-										EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 									<li>
 										Gornja ploča se može uklopiti sa

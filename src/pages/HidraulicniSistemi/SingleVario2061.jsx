@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/SingleVario2061/header-produkt-singlevario-2061.jpg';
 import NEU_schemaclip_singlevario_2061_IMG from './../../assets/NEU_schemaclip-singlevario-2061.gif';
@@ -12,7 +12,8 @@ import doc3 from './../../assets/products/E-Plug-In.pdf';
 import zip1 from './../../assets/products/SingleVario2061/SingleVario-2061-DWG.zip';
 import zip2 from './../../assets/products/SingleVario2061/SingleVario-2061-DXF.zip';
 import zip3 from './../../assets/products/SingleVario2061/SingleVario-2061-BIM.zip';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const SingleVario2061 = () => {
 	return (
@@ -100,8 +101,27 @@ const SingleVario2061 = () => {
 										parkiranja
 									</li>
 									<li>
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 								</ul>
 							</section>

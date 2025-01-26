@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/SingleVario2061Outdoor/header-singlevario-2061-outdoor.jpg';
 import gif from './../../assets/NEU_schemaclip-singlevario-2061-outdoor.gif';
@@ -8,7 +8,8 @@ import variationsImg1 from './../../assets/products/SingleVario2061Outdoor/singl
 
 import doc1 from './../../assets/products/SingleVario2061Outdoor/58650190.pdf';
 import doc2 from './../../assets/products/SingleVario2061Outdoor/58655490.pdf';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const SingleVario2061Outdoor = () => {
 	return (
@@ -106,8 +107,27 @@ const SingleVario2061Outdoor = () => {
 									</li>
 									<li>Moguća naknadna ugradnja</li>
 									<li>
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 								</ul>
 							</section>

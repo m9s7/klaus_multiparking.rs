@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/MultiBase2078i/header-produkt-multibase-2078i.jpg';
 import NEU_schemaclip_multibase_2078i_IMG from './../../assets/NEU_schemaclip-multibase-2078i.gif';
@@ -11,7 +11,8 @@ import doc3 from './../../assets/products/E-Plug-In.pdf';
 import zip1 from './../../assets/products/MultiBase2078i/MultiBase-2078i-V2-DWG.zip';
 import zip2 from './../../assets/products/MultiBase2078i/MultiBase-2078i-V2-DXF.zip';
 import zip3 from './../../assets/products/MultiBase2078i/MultiBase-2078i-BIM.zip';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBase2078i = () => {
 	return (
@@ -46,9 +47,16 @@ const MultiBase2078i = () => {
 									prostora.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
-									U poređenju sa MultiBase 2072i zahteva do
-									30cm manju visinu prostora za ugradnju
-									parking sistema menjanjem nagiba platforme.
+									U poređenju sa{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/MultiBase2072i"
+									>
+										MultiBase 2072i
+									</Link>{' '}
+									zahteva do 30cm manju visinu prostora za
+									ugradnju parking sistema menjanjem nagiba
+									platforme.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
 									Zbog pozicije stubova, vrata automobila se
@@ -67,7 +75,14 @@ const MultiBase2078i = () => {
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
 									Možete unaprediti vaš MultiBase 2078i sa
-									našom dodatnom opremom.
+									našom{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatnom opremom
+									</Link>
+									.
 								</p>
 
 								{/* <p
@@ -121,8 +136,27 @@ const MultiBase2078i = () => {
 										parkiranje je pod blagim nagibom
 									</li>
 									<li>
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 								</ul>
 							</section>

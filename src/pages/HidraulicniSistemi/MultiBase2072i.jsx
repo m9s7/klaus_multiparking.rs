@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/multiBase2072i-duplexparker-1-2.png';
 import NEU_schemaclip_multibase_2072i_IMG from './../../assets/NEU_schemaclip-multibase-2072i.gif';
@@ -12,7 +12,8 @@ import doc3 from './../../assets/products/E-Plug-In.pdf';
 import zip1 from './../../assets/products/MultiBase2072i/MultiBase-2072i-V2-DWG.zip';
 import zip2 from './../../assets/products/MultiBase2072i/MultiBase-2072i-V2-DXF.zip';
 import zip3 from './../../assets/products/MultiBase2072i/MultiBase-2072i-BIM.zip';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBase2072i = () => {
 	return (
@@ -76,7 +77,14 @@ const MultiBase2072i = () => {
 
 								<p className={`${styles.paragraph} mt-4`}>
 									Možete unaprediti vaš MultiBase 2072i sa
-									našom dodatnom opremom.
+									našom{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatnom opremom
+									</Link>
+									.
 								</p>
 							</section>
 
@@ -115,8 +123,27 @@ const MultiBase2072i = () => {
 										parkiranja
 									</li>
 									<li>
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 								</ul>
 							</section>
@@ -138,7 +165,14 @@ const MultiBase2072i = () => {
 											Parkirališta, hoteli, samostalne
 											garaže
 										</li>
-										<li>Spoljna montaža u dvorištima</li>
+										<li>
+											<Link
+												style={{ color: '#FF6F00' }}
+												to="/MultiBase2072iOutdoor"
+											>
+												Spoljna montaža u dvorištima
+											</Link>
+										</li>
 									</ul>
 									<img
 										className="mb-12 mt-4 md:w-1/3 md:max-w-none"

@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/MultiBase2042/header-produkt-multibase2042.jpg';
 import NEU_schemaclip_multibase_2042_IMG from './../../assets/NEU_schemaclip-multibase-2042.gif';
@@ -9,7 +9,8 @@ import variationsImg from './../../assets/products/MultiBase2042/multibase-2042-
 import doc1 from './../../assets/products/MultiBase2042/58391370.pdf';
 import zip1 from './../../assets/products/MultiBase2042/MultiBase-2042-DWG.zip';
 import zip2 from './../../assets/products/MultiBase2042/MultiBase-2042-DXF.zip';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBase2042 = () => {
 	return (
@@ -78,8 +79,27 @@ const MultiBase2042 = () => {
 										blagim nagibom
 									</li>
 									<li>
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 								</ul>
 							</section>

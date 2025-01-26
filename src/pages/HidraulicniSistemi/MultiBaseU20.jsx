@@ -12,6 +12,7 @@ import zip1 from './../../assets/products/MultiBaseU20/MultiBase-U20-DWG.zip';
 import zip2 from './../../assets/products/MultiBaseU20/MultiBase-U20-DXF.zip';
 import doc3 from './../../assets/products/MultiBaseU10/multibase-u10-u20.pdf';
 import Footer from '../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBaseU20 = () => {
 	return (
@@ -59,7 +60,14 @@ const MultiBaseU20 = () => {
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
 									Iskoristite maksimalno vaše parking prostore
-									uz naše premium dodatke.
+									uz naše premium{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatke
+									</Link>
+									.
 								</p>
 							</section>
 
@@ -97,8 +105,20 @@ const MultiBaseU20 = () => {
 										platformi
 									</li>
 									<li>
-										Vozne ploče: AluLongLife, opciono
-										EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 									<li>
 										Gornja ploča se može uklopiti sa

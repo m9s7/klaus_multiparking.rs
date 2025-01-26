@@ -1,14 +1,12 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
-
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 import bannerIMG from './../../assets/products/MultiBase2072iSpecial/multibase-2072i-behindertenstellplatz.png';
 import gif from './../../assets/NEU_schemaclip-multibase-2072i.gif';
-
 import variationsImg1 from './../../assets/products/MultiBase2072iSpecial/multibase-2072i-limited-mobility-en.png';
-
 import doc1 from './../../assets/products/MultiBase2072iSpecial/58729630.pdf';
 import doc2 from './../../assets/products/MultiBase2072iSpecial/Supplement-product-data.pdf';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBase2072iSpecial = () => {
 	return (
@@ -49,7 +47,13 @@ const MultiBase2072iSpecial = () => {
 									MultiBase 2072i platforma za parkiranje za
 									osobe sa posebnim potrebama je kreirana za
 									ljude sa ograničenom pokretljivošću i ima
-									poseban dizajn koji uključuje AluLongLife
+									poseban dizajn koji uključuje{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										AluLongLife
+									</Link>{' '}
 									prevlaku, po kojoj se može voziti i hodati.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
@@ -77,9 +81,15 @@ const MultiBase2072iSpecial = () => {
 										makasimalno 1° nagiba
 									</li>
 									<li>
-										Poseban dizajn koji uključuje
-										AluLongLife prevlaku, po kojoj se može
-										voziti i hodati
+										Poseban dizajn koji uključuje{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										prevlaku, po kojoj se može voziti i
+										hodati
 									</li>
 								</ul>
 							</section>

@@ -365,8 +365,14 @@ const Naslovna = () => {
 												platformom
 											</li>
 											<li>
-												Kompatibilno sa stanicama za
-												punjenje električnih vozila
+												Kompatibilno{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/DodatnaOprema"
+												>
+													sa stanicama za punjenje
+													električnih vozila
+												</Link>{' '}
 											</li>
 											<li>
 												<strong>Pogodno za:</strong>{' '}
@@ -435,8 +441,14 @@ const Naslovna = () => {
 												sinhronizaciju kontrole
 											</li>
 											<li>
-												Kompatibilno sa stanicama za
-												punjenje električnih vozila
+												Kompatibilno{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/DodatnaOprema"
+												>
+													sa stanicama za punjenje
+													električnih vozila
+												</Link>{' '}
 											</li>
 											<li>
 												<strong>Pogodno za:</strong>{' '}
@@ -573,7 +585,7 @@ const Naslovna = () => {
 									>
 										MultiBase U10
 									</Link>{' '}
-									/
+									/{' '}
 									<Link
 										style={{ color: '#FF6F00' }}
 										to="/MultiBaseU20"
@@ -727,7 +739,13 @@ const Naslovna = () => {
 												cm)
 											</li>
 											<li>
-												Visokokvalitetna AluLongLife
+												Visokokvalitetna{' '}
+												<Link
+													style={{ color: '#FF6F00' }}
+													to="/DodatnaOprema"
+												>
+													AluLongLife
+												</Link>{' '}
 												površina koja je lakša za
 												hodanje i pristupanje
 											</li>
@@ -881,7 +899,20 @@ const Naslovna = () => {
 										(ušteda troškova)
 									</li>
 									<li>
-										Sa MultiBase U10 / MultiBase U20
+										Sa{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/MultiBaseU10"
+										>
+											MultiBase U10
+										</Link>{' '}
+										/{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/MultiBaseU20"
+										>
+											MultiBase U20
+										</Link>{' '}
 										&quot;nevidljiva&quot; parking mesta
 									</li>
 									<li>

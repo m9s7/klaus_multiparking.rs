@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/MultiBase2072iOutdoor/header-produkt-multibase-2072i-outdoor.jpg';
 import NEU_schemaclip_multibase_2072i_IMG from './../../assets/NEU_schemaclip-multibase-2072i-outdoor.gif';
@@ -8,7 +8,8 @@ import variationsImg1 from './../../assets/products/MultiBase2072iOutdoor/multib
 
 import doc1 from './../../assets/products/MultiBase2072iOutdoor/58731310.pdf';
 import doc2 from './../../assets/products/MultiBase2072iOutdoor/58739670.pdf';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBase2072iOutdoor = () => {
 	return (
@@ -74,8 +75,14 @@ const MultiBase2072iOutdoor = () => {
 
 								<p className={`${styles.paragraph} mt-4`}>
 									Možete unaprediti vaš MultiBase 2072i sistem
-									za spoljnu upotrebu sa našom dodatnom
-									opremom.
+									za spoljnu upotrebu sa našom{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatnom opremom
+									</Link>
+									.
 								</p>
 							</section>
 
@@ -114,8 +121,27 @@ const MultiBase2072iOutdoor = () => {
 										parkiranja
 									</li>
 									<li>
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 								</ul>
 							</section>

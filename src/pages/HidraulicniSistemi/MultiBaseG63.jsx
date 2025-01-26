@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/MultiBaseG63/header-produkt-multibase-g63.jpg';
 import NEU_schemaclip_multibase_G63_IMG from './../../assets/NEU_schemaclip-multibase-g63.gif';
@@ -12,7 +12,8 @@ import doc1 from './../../assets/products/MultiBaseG63/58391490.pdf';
 import doc2 from './../../assets/products/MultiBaseG63/58655450.pdf';
 import zip1 from './../../assets/products/MultiBaseG63/MultiBase-G63-DWG.zip';
 import zip2 from './../../assets/products/MultiBaseG63/MultiBase-G63-DXF.zip';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
+import { Link } from 'react-router-dom';
 
 const MultiBaseG63 = () => {
 	return (
@@ -52,8 +53,14 @@ const MultiBaseG63 = () => {
 									nezavisno jedna od drugih.
 								</p>
 								<p className={`${styles.paragraph} mt-4`}>
-									Možete unaprediti vaš MultiBase G63 sa našom
-									dodatnom opremom.
+									Možete unaprediti vaš MultiBase G63 sa našom{' '}
+									<Link
+										style={{ color: '#FF6F00' }}
+										to="/DodatnaOprema"
+									>
+										dodatnom opremom
+									</Link>
+									.
 								</p>
 							</section>
 
@@ -91,8 +98,27 @@ const MultiBaseG63 = () => {
 										parkiranja
 									</li>
 									<li>
-										Vozne ploče: StandardGrip, opciono
-										AluLongLife ili EasyWalk
+										Vozne ploče:{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											StandardGrip
+										</Link>
+										, opciono{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											AluLongLife
+										</Link>{' '}
+										ili{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/DodatnaOprema"
+										>
+											EasyWalk
+										</Link>{' '}
 									</li>
 								</ul>
 							</section>
@@ -114,7 +140,14 @@ const MultiBaseG63 = () => {
 											Parkirališta, hoteli, samostalne
 											garaže
 										</li>
-										<li>Spoljna montaža u dvorištima</li>
+										<li>
+											<Link
+												style={{ color: '#FF6F00' }}
+												to="/MultiBaseG63Outdoor"
+											>
+												Spoljna montaža u dvorištima
+											</Link>
+										</li>
 									</ul>
 									<img
 										className="mb-12 mt-4 md:w-1/3 md:max-w-none"
