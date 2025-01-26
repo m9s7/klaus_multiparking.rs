@@ -11,6 +11,7 @@ import doc2 from './../../assets/products/MultiBaseU10/58864820.pdf';
 import zip1 from './../../assets/products/MultiBaseU10/MultiBase-U10-DWG.zip';
 import zip2 from './../../assets/products/MultiBaseU10/MultiBase-U10-DXF.zip';
 import doc3 from './../../assets/products/MultiBaseU10/multibase-u10-u20.pdf';
+import Footer from '../../components/Footer';
 
 const MultiBaseU10 = () => {
 	return (
@@ -173,19 +174,7 @@ const MultiBaseU10 = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+			<Footer></Footer>
 		</>
 	);
 };

@@ -24,6 +24,7 @@ import doorImg3 from '../../assets/products/DoorTypes/tore-drahtgitter-verzinkt-
 import doorImg4 from '../../assets/products/DoorTypes/tore-holzfuellung-300x200px.jpg';
 import doorImg5 from '../../assets/products/DoorTypes/tore-aluglattblech-300x200px.jpg';
 import doorImg6 from '../../assets/products/DoorTypes/tore-sicherheitsglas-300x200px.jpg';
+import Footer from '../../components/Footer';
 
 const TrendVario6100plus = () => {
 	return (
@@ -367,19 +368,7 @@ const TrendVario6100plus = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+			<Footer></Footer>
 		</>
 	);
 };

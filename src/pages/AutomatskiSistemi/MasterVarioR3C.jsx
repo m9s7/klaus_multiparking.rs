@@ -10,6 +10,7 @@ import doc1 from './../../assets/products/MasterVarioR3C/58645040.pdf';
 import doc2 from './../../assets/products/MasterVarioR3C/58645060.pdf';
 import doc3 from './../../assets/products/MasterVarioR2C/Fully-automatic-parking-systems.pdf';
 import doc4 from './../../assets/products/MasterVarioR2C/Questionnaire-Automatic-parking-systems.pdf';
+import Footer from '../../components/Footer';
 
 const MasterVarioR3C = () => {
 	return (
@@ -295,19 +296,7 @@ const MasterVarioR3C = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+			<Footer></Footer>
 		</>
 	);
 };

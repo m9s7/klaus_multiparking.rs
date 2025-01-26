@@ -10,6 +10,7 @@ import variationsImg1 from './../../assets/products/ParkingBoardPE/barkboard-pe-
 import doc1 from './../../assets/products/ParkingBoardPE/58416990.pdf';
 import zip1 from './../../assets/products/ParkingBoardPE/ParkBoard-PE-PH-DWG.zip';
 import zip2 from './../../assets/products/ParkingBoardPE/ParkBoard-PE-PH-DXF.zip';
+import Footer from '../../components/Footer';
 
 const ParkBoardPE = () => {
 	return (
@@ -187,19 +188,7 @@ const ParkBoardPE = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+			<Footer></Footer>
 		</>
 	);
 };

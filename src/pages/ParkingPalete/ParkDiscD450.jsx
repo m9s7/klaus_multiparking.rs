@@ -12,6 +12,7 @@ import doc1 from './../../assets/products/ParkDiscD450/58391740.pdf';
 import doc2 from './../../assets/products/ParkDiscD450/58655670.pdf';
 import zip1 from './../../assets/products/ParkDiscD450/ParkDisc-D450-DWG.zip';
 import zip2 from './../../assets/products/ParkDiscD450/ParkDisc-D450-DXF.zip';
+import Footer from '../../components/Footer';
 
 const ParkDiscD450 = () => {
 	return (
@@ -180,19 +181,7 @@ const ParkDiscD450 = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+			<Footer></Footer>
 		</>
 	);
 };

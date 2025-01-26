@@ -11,6 +11,7 @@ import doc1 from './../../assets/products/ParkingBoardPH/58416990 (2).pdf';
 import doc2 from './../../assets/products/ParkingBoardPH/58658390.pdf';
 import zip1 from './../../assets/products/ParkingBoardPH/ParkBoard-PE-PH-DXF.zip';
 import zip2 from './../../assets/products/ParkingBoardPH/ParkBoard-PE-PH-DWG (2).zip';
+import Footer from '../../components/Footer';
 
 const ParkBoardPH = () => {
 	return (
@@ -176,19 +177,7 @@ const ParkBoardPH = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+			<Footer></Footer>
 		</>
 	);
 };

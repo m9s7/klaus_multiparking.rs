@@ -12,6 +12,7 @@ import doc1 from './../../assets/products/MultiBaseG63/58391490.pdf';
 import doc2 from './../../assets/products/MultiBaseG63/58655450.pdf';
 import zip1 from './../../assets/products/MultiBaseG63/MultiBase-G63-DWG.zip';
 import zip2 from './../../assets/products/MultiBaseG63/MultiBase-G63-DXF.zip';
+import Footer from '../../components/Footer';
 
 const MultiBaseG63 = () => {
 	return (
@@ -185,19 +186,7 @@ const MultiBaseG63 = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+			<Footer></Footer>
 		</>
 	);
 };

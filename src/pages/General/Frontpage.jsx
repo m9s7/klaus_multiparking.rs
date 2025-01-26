@@ -3,6 +3,10 @@ import styles from '../../style';
 import Footer from '../../components/Footer';
 
 import img1 from './../../assets/header-produktgruppe-parker.jpg';
+import img2 from './../../assets/header-produktgruppe-halbautomatische-parksysteme.jpg';
+import img3 from './../../assets/header-produktgruppe-vollautomatische-parksysteme.jpg';
+import img4 from './../../assets/header-zubehoer.jpg';
+import img5 from './../../assets/header-produktgruppe-paletten.jpg';
 
 const FrontPage = () => {
 	return (
@@ -167,7 +171,7 @@ const FrontPage = () => {
 							<div className="hidden w-full md:flex">
 								<div className="flex flex-col pr-4 md:w-1/2 lg:w-[60%]">
 									<img
-										src="src/assets/header-produktgruppe-parker.jpg"
+										src={img1}
 										className="h-auto w-full rounded-md object-cover"
 									/>
 									<div className="mt-4">
@@ -279,7 +283,7 @@ const FrontPage = () => {
 							{/* MOBILE (below md) */}
 							<div className="block w-full md:hidden">
 								<img
-									src="src/assets/header-produktgruppe-halbautomatische-parksysteme.jpg"
+									src={img2}
 									className="h-auto w-full rounded-md object-cover"
 								/>
 
@@ -383,7 +387,7 @@ const FrontPage = () => {
 
 								<div className="flex flex-col pr-4 md:w-1/2 lg:w-[60%]">
 									<img
-										src="src/assets/header-produktgruppe-halbautomatische-parksysteme.jpg"
+										src={img2}
 										className="h-auto w-full rounded-md object-cover"
 									/>
 									<div className="mt-4">
@@ -413,7 +417,7 @@ const FrontPage = () => {
 							{/* MOBILE (below md) */}
 							<div className="block w-full md:hidden">
 								<img
-									src="src/assets/header-produktgruppe-vollautomatische-parksysteme.jpg"
+									src={img3}
 									className="h-auto w-full rounded-md object-cover"
 								/>
 
@@ -467,7 +471,7 @@ const FrontPage = () => {
 							<div className="hidden w-full md:flex">
 								<div className="flex flex-col pr-4 md:w-1/2 lg:w-[60%]">
 									<img
-										src="src/assets/header-produktgruppe-vollautomatische-parksysteme.jpg"
+										src={img3}
 										className="h-auto w-full rounded-md object-cover"
 									/>
 									<div className="mt-4">
@@ -535,7 +539,7 @@ const FrontPage = () => {
 							{/* MOBILE (below md) */}
 							<div className="block w-full md:hidden">
 								<img
-									src="src/assets/header-produktgruppe-paletten.jpg"
+									src={img5}
 									className="h-auto w-full rounded-md object-cover"
 								/>
 
@@ -627,7 +631,7 @@ const FrontPage = () => {
 
 								<div className="flex flex-col pr-4 md:w-1/2 lg:w-[60%]">
 									<img
-										src="src/assets/header-produktgruppe-paletten.jpg"
+										src={img5}
 										className="h-auto w-full rounded-md object-cover"
 									/>
 									<div className="mt-4">
@@ -654,7 +658,7 @@ const FrontPage = () => {
 							{/* MOBILE (below md) */}
 							<div className="block w-full md:hidden">
 								<img
-									src="src/assets/header-zubehoer.jpg"
+									src={img4}
 									className="h-auto w-full rounded-md object-cover"
 								/>
 
@@ -707,7 +711,7 @@ const FrontPage = () => {
 							<div className="hidden w-full md:flex">
 								<div className="flex flex-col pr-4 md:w-1/2 lg:w-[60%]">
 									<img
-										src="src/assets/header-zubehoer.jpg"
+										src={img4}
 										className="h-auto w-full rounded-md object-cover"
 									/>
 									<div className="mt-4">

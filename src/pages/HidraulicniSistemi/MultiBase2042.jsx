@@ -9,6 +9,7 @@ import variationsImg from './../../assets/products/MultiBase2042/multibase-2042-
 import doc1 from './../../assets/products/MultiBase2042/58391370.pdf';
 import zip1 from './../../assets/products/MultiBase2042/MultiBase-2042-DWG.zip';
 import zip2 from './../../assets/products/MultiBase2042/MultiBase-2042-DXF.zip';
+import Footer from '../../components/Footer';
 
 const MultiBase2042 = () => {
 	return (
@@ -148,19 +149,7 @@ const MultiBase2042 = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-				<div className={`${styles.boxWidth}`}>
-					<div className={`${styles.paddingY} relative`}>
-						<footer className="mt-8 bg-accentColor p-6 text-white">
-							<p>
-								KLAUS Multiparking - Vaš pouzdan partner za
-								inovativna rešenja parkiranja sa preko 60 godina
-								iskustva.
-							</p>
-						</footer>
-					</div>
-				</div>
-			</div>
+			<Footer></Footer>
 		</>
 	);
 };
