@@ -1,7 +1,15 @@
-import Footer from '../../components/Footer';
-import styles from '../../style';
+import Footer from './../../components/Footer';
+import styles from './../../style';
 import { Link } from 'react-router-dom';
-import { DownloadButton } from '../../components';
+import { DownloadButton } from './../../components';
+
+import img1 from './../../assets/header-zubehoer.jpg';
+import img2 from './../../assets/AluLongLife.png';
+import img3 from './../../assets/Easy-walk.png';
+import img4 from './../../assets/Standardgrip.png';
+import img5 from './../../assets/eparking.png';
+import img6 from './../../assets/bikesafe.png';
+import img7 from './../../assets/gummieinlegeteile.png';
 
 import doc1 from './../../assets/Folder-AluLongLife.pdf';
 import doc2 from './../../assets/Folder-BikeSafe-XS-XL.pdf';
@@ -13,7 +21,7 @@ const DodatnaOpremaNaslovna = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className="relative w-full">
 						<img
-							src="src\assets\header-zubehoer.jpg"
+							src={img1}
 							className="h-auto w-full object-cover"
 						></img>
 						<header className="-mt-10 flex flex-col justify-center text-black">
@@ -53,7 +61,7 @@ const DodatnaOpremaNaslovna = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/AluLongLife.png"
+										src={img2}
 										alt="AluLongLife"
 										className="h-auto w-full object-cover"
 									/>
@@ -119,7 +127,7 @@ const DodatnaOpremaNaslovna = () => {
 								<div className="hidden w-full md:flex">
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/AluLongLife.png"
+											src={img2}
 											alt="AluLongLife"
 											className="h-auto w-full object-cover"
 										/>
@@ -191,7 +199,7 @@ const DodatnaOpremaNaslovna = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/Easy-walk.png"
+										src={img3}
 										className="h-auto w-full object-cover"
 									/>
 
@@ -247,7 +255,7 @@ const DodatnaOpremaNaslovna = () => {
 									</div>
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/Easy-walk.png"
+											src={img3}
 											className="h-auto w-full object-cover"
 										/>
 									</div>
@@ -259,7 +267,7 @@ const DodatnaOpremaNaslovna = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/Standardgrip.png"
+										src={img4}
 										className="h-auto w-full object-cover"
 									/>
 
@@ -279,7 +287,7 @@ const DodatnaOpremaNaslovna = () => {
 								<div className="hidden w-full md:flex">
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/Standardgrip.png"
+											src={img4}
 											className="h-auto w-full object-cover"
 										/>
 									</div>
@@ -308,7 +316,7 @@ const DodatnaOpremaNaslovna = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/eparking.png"
+										src={img5}
 										className="h-auto w-full object-cover"
 									/>
 
@@ -370,7 +378,7 @@ const DodatnaOpremaNaslovna = () => {
 									</div>
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/eparking.png"
+											src={img5}
 											className="h-auto w-full object-cover"
 										/>
 									</div>
@@ -382,7 +390,7 @@ const DodatnaOpremaNaslovna = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/bikesafe.png"
+										src={img6}
 										className="h-auto w-full object-cover"
 									/>
 
@@ -414,7 +422,7 @@ const DodatnaOpremaNaslovna = () => {
 								<div className="hidden w-full md:flex">
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/bikesafe.png"
+											src={img6}
 											className="h-auto w-full object-cover"
 										/>
 										<div className="mt-4">
@@ -453,7 +461,7 @@ const DodatnaOpremaNaslovna = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/gummieinlegeteile.png"
+										src={img7}
 										className="h-auto w-full object-cover"
 									/>
 
@@ -491,7 +499,7 @@ const DodatnaOpremaNaslovna = () => {
 									</div>
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/gummieinlegeteile.png"
+											src={img7}
 											className="h-auto w-full object-cover"
 										/>
 									</div>

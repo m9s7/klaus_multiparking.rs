@@ -1,6 +1,11 @@
-import Footer from '../../components/Footer';
-import styles from '../../style';
-import { DownloadButton } from '../../components';
+import Footer from './../../components/Footer';
+import styles from './../../style';
+import { DownloadButton } from './../../components';
+
+import img1 from './../../assets/header-elektronische-bediensysteme.jpg';
+import img2 from './../../assets/smart-app-handy-mit-icon-300x200.jpg';
+import img3 from './../../assets/smart-portable-fernbedienung-mit-icon-300x200.jpg';
+import img4 from './../../assets/smart-chip-konsole-mit-icon-300x200.jpg';
 
 import doc1 from './../../assets/infosheet-electronic-operating-systems-en.pdf';
 
@@ -11,7 +16,7 @@ const SmartHome = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className="relative w-full">
 						<img
-							src="src\assets\header-elektronische-bediensysteme.jpg"
+							src={img1}
 							className="h-auto w-full object-cover"
 						></img>
 						<header className="-mt-10 flex flex-col justify-center text-black">
@@ -50,7 +55,7 @@ const SmartHome = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/smart-app-handy-mit-icon-300x200.jpg"
+										src={img2}
 										className="h-auto w-full object-cover"
 									/>
 									<h2 className={`${styles.heading2} mt-4`}>
@@ -99,7 +104,7 @@ const SmartHome = () => {
 								<div className="hidden w-full md:flex">
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/smart-app-handy-mit-icon-300x200.jpg"
+											src={img2}
 											className="h-auto w-full object-cover"
 										/>
 									</div>
@@ -157,7 +162,7 @@ const SmartHome = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/smart-portable-fernbedienung-mit-icon-300x200.jpg"
+										src={img3}
 										className="h-auto w-full object-cover"
 									/>
 									<h2 className={`${styles.heading2} mt-4`}>
@@ -227,7 +232,7 @@ const SmartHome = () => {
 									</div>
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/smart-portable-fernbedienung-mit-icon-300x200.jpg"
+											src={img3}
 											className="h-auto w-full object-cover"
 										/>
 									</div>
@@ -239,7 +244,7 @@ const SmartHome = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/smart-chip-konsole-mit-icon-300x200.jpg"
+										src={img4}
 										className="h-auto w-full object-cover"
 									/>
 									<h2 className={`${styles.heading2} mt-4`}>
@@ -260,7 +265,7 @@ const SmartHome = () => {
 								<div className="hidden w-full md:flex">
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/smart-chip-konsole-mit-icon-300x200.jpg"
+											src={img4}
 											className="h-auto w-full object-cover"
 										/>
 									</div>

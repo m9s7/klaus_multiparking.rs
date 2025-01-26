@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/ParkingBoardPE/header-produkt-paletten-parkboard-pe.jpg';
 
@@ -10,7 +10,7 @@ import variationsImg1 from './../../assets/products/ParkingBoardPE/barkboard-pe-
 import doc1 from './../../assets/products/ParkingBoardPE/58416990.pdf';
 import zip1 from './../../assets/products/ParkingBoardPE/ParkBoard-PE-PH-DWG.zip';
 import zip2 from './../../assets/products/ParkingBoardPE/ParkBoard-PE-PH-DXF.zip';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
 
 const ParkBoardPE = () => {
 	return (
@@ -124,7 +124,6 @@ const ParkBoardPE = () => {
 									<img
 										className="mb-12 mt-4 md:w-1/3 md:max-w-none"
 										src={NEU_schemaclip_multibase_2072i_IMG}
-										alt="animation graphic scheme multibase 2072i outdoor"
 										loading="lazy"
 									/>
 								</div>

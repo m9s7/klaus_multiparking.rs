@@ -1,6 +1,9 @@
-import Footer from '../../components/Footer';
-import styles from '../../style';
-import { DownloadButton } from '../../components';
+import Footer from './../../components/Footer';
+import styles from './../../style';
+import { DownloadButton } from './../../components';
+
+import img1 from './../../assets/header-eparking-eplugin-2023-06.jpg';
+import img2 from './../../assets/grafik-plug-in-montagesaeule-wallbox-400x400px.jpg';
 
 import doc1 from './../../assets/E-Plug-In.pdf';
 
@@ -11,7 +14,7 @@ const EParking = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className="relative w-full">
 						<img
-							src="src\assets\header-eparking-eplugin-2023-06.jpg"
+							src={img1}
 							className="h-auto w-full object-cover"
 						></img>
 						<header className="-mt-10 flex flex-col justify-center text-black">
@@ -47,7 +50,7 @@ const EParking = () => {
 								{/* MOBILE (below md) */}
 								<div className="block w-full md:hidden">
 									<img
-										src="src/assets/grafik-plug-in-montagesaeule-wallbox-400x400px.jpg"
+										src={img2}
 										className="h-auto w-full object-cover"
 									/>
 									<p
@@ -105,7 +108,7 @@ const EParking = () => {
 								<div className="hidden w-full md:flex">
 									<div className="flex flex-col pr-4 md:w-1/2 lg:w-[30%]">
 										<img
-											src="src/assets/grafik-plug-in-montagesaeule-wallbox-400x400px.jpg"
+											src={img2}
 											className="h-auto w-full object-cover"
 										/>
 										<div className="mt-4">

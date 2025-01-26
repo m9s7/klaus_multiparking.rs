@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/ParkDiscD450/header-produkt-parkdisc-d450.jpg';
 
@@ -12,7 +12,7 @@ import doc1 from './../../assets/products/ParkDiscD450/58391740.pdf';
 import doc2 from './../../assets/products/ParkDiscD450/58655670.pdf';
 import zip1 from './../../assets/products/ParkDiscD450/ParkDisc-D450-DWG.zip';
 import zip2 from './../../assets/products/ParkDiscD450/ParkDisc-D450-DXF.zip';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
 
 const ParkDiscD450 = () => {
 	return (
@@ -120,7 +120,6 @@ const ParkDiscD450 = () => {
 									<img
 										className="mb-12 mt-4 md:w-1/3 md:max-w-none"
 										src={NEU_schemaclip_multibase_2072i_IMG}
-										alt="animation graphic scheme multibase 2072i outdoor"
 										loading="lazy"
 									/>
 								</div>

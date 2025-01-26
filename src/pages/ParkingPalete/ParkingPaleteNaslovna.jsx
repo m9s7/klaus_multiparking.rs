@@ -1,6 +1,12 @@
-import Footer from '../../components/Footer';
-import styles from '../../style';
+import Footer from './../../components/Footer';
+import styles from './../../style';
 import { Link } from 'react-router-dom';
+
+import img1 from './../../assets/header-produktgruppe-paletten.jpg';
+import img2 from './../../assets/NEU_schemaclip-parkboard-pe.gif';
+import img3 from './../../assets/NEU_schemaclip-parkboard-ph.gif';
+import img4 from './../../assets/NEU_schemaclip-parkboard-pq.gif';
+import img5 from './../../assets/NEU_schemaclip-parkdisc-d450.gif';
 
 const ParkingPaleteNaslovna = () => {
 	return (
@@ -9,7 +15,7 @@ const ParkingPaleteNaslovna = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className="relative w-full">
 						<img
-							src="src\assets\header-produktgruppe-paletten.jpg"
+							src={img1}
 							className="h-auto w-full object-cover"
 						></img>
 						<header className="-mt-10 flex flex-col justify-center text-black">
@@ -78,8 +84,21 @@ const ParkingPaleteNaslovna = () => {
 									<li>
 										Mogu se kombinovati sa drugim parking
 										sistemima od KLAUS Multiparking-a (npr.
-										našim poluautomatskim parking sistemima
-										sa našim ParkTablama PQ)
+										našim{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/PoluautomackiSistemi"
+										>
+											poluautomatskim parking sistemima
+										</Link>{' '}
+										sa našim{' '}
+										<Link
+											style={{ color: '#FF6F00' }}
+											to="/ParkBoardPQ"
+										>
+											ParkTablama PQ
+										</Link>
+										)
 									</li>
 									<li>
 										Dodatna udobnost i praktičnost
@@ -166,8 +185,7 @@ const ParkingPaleteNaslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-parkboard-pe.gif "
-										alt="animation graphic scheme multibase 2072i"
+										src={img2}
 										loading="lazy"
 									/>
 								</div>
@@ -208,7 +226,7 @@ const ParkingPaleteNaslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-parkboard-ph.gif"
+										src={img3}
 										loading="lazy"
 									/>
 								</div>
@@ -251,7 +269,7 @@ const ParkingPaleteNaslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-parkboard-pq.gif"
+										src={img4}
 										loading="lazy"
 									/>
 								</div>
@@ -292,7 +310,7 @@ const ParkingPaleteNaslovna = () => {
 									</div>
 									<img
 										className="mb-12 mt-4 h-auto object-contain lg:w-2/5"
-										src="src\assets\NEU_schemaclip-parkdisc-d450.gif"
+										src={img5}
 										loading="lazy"
 									/>
 								</div>
