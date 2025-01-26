@@ -1,5 +1,5 @@
-import { DownloadButton } from '../../components';
-import styles from '../../style';
+import { DownloadButton } from './../../components';
+import styles from './../../style';
 
 import bannerIMG from './../../assets/products/MasterVarioR2C/header-produkt-mastervario-r2c.jpg';
 
@@ -10,7 +10,7 @@ import doc1 from './../../assets/products/MasterVarioR2C/58671840.pdf';
 import doc2 from './../../assets/products/MasterVarioR2C/58645060.pdf';
 import doc3 from './../../assets/products/MasterVarioR2C/Fully-automatic-parking-systems.pdf';
 import doc4 from './../../assets/products/MasterVarioR2C/Questionnaire-Automatic-parking-systems.pdf';
-import Footer from '../../components/Footer';
+import Footer from './../../components/Footer';
 
 const MasterVarioR2C = () => {
 	return (

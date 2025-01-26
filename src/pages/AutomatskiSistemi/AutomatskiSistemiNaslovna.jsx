@@ -1,6 +1,8 @@
-import Footer from '../../components/Footer';
-import styles from '../../style';
+import Footer from './../../components/Footer';
+import styles from './../../style';
 import { Link } from 'react-router-dom';
+
+import img1 from './../../assets/header-produktgruppe-vollautomatische-parksysteme.jpg';
 
 const AutomatskiSistemiNaslovna = () => {
 	return (
@@ -9,9 +11,7 @@ const AutomatskiSistemiNaslovna = () => {
 				<div className={`${styles.boxWidth}`}>
 					<div className="relative w-full">
 						<img
-							src="src\assets\header-produktgruppe-vollautomatische-parksysteme.jpg"
-							alt="Duplex Garaže i Dvostruki Parkeri iz KLAUS
-                                            Multiparkinga slika"
+							src={img1}
 							className="h-auto w-full object-cover"
 						></img>
 						<header className="-mt-10 flex flex-col justify-center text-black">
