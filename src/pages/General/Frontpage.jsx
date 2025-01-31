@@ -84,7 +84,7 @@ const FrontPage = () => {
 
 								<h2 className={`${styles.heading2} mt-4`}>
 									<Link to="/HidraulicniSistemi">
-										Hidraulicni Sistemi
+										Hidraulični Sistemi
 									</Link>
 									<hr className="h-1 bg-accentColor" />
 								</h2>
@@ -203,7 +203,7 @@ const FrontPage = () => {
 										className={`${styles.heading2} group relative cursor-pointer transition duration-300 hover:text-accentColor`}
 									>
 										<Link to="/HidraulicniSistemi">
-											Hidraulicni Sistemi
+											Hidraulični Sistemi
 										</Link>
 										<span className="absolute bottom-0 left-0 h-[2px] w-0 bg-accentColor transition-all duration-300 group-hover:w-full"></span>
 										<span className="absolute right-2 top-0 translate-x-2 transform text-accentColor opacity-0 transition-all duration-150 group-hover:translate-x-0 group-hover:opacity-100">

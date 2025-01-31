@@ -56,7 +56,7 @@ const MasterVarioR3C = () => {
 									sistem može biti nadzemni, podzemni ili
 									kombinacija oba. MasterVario R3C paletni
 									sistem ima iste fleksibilne kvalitete kao i
-									Tower system, ali jednumizuzetnu prednost:
+									Tower system, ali jednu izuzetnu prednost:
 									zbog dodatnih pokreta po osi, jedinica za
 									smeštaj i preuzimanje vozila može
 									rasporediti do deset vozila jedno iza

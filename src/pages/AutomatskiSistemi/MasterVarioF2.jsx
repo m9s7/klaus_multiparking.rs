@@ -61,7 +61,7 @@ const MasterVarioF2 = () => {
 								</p>
 
 								<p className={`${styles.paragraph} mt-4`}>
-									Jedanoredni sistem sa liftom i horizontalnom
+									Jednoredni sistem sa liftom i horizontalnom
 									prenosnom jedinicom može se projektovati sa
 									do 5 nivoa u zavisnosti od broja parking
 									mesta po nivou. Korišćenjem našeg
