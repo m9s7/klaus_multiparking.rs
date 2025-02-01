@@ -18,14 +18,15 @@ const FrontPage = () => {
 							<h1 className={`${styles.heading1} p-2`}></h1>
 						</header>
 					</div>
-					<div className={`${styles.paddingY} relative`}>
+					<div
+						className={`${styles.paddingY} relative flex h-[80vh] flex-col justify-center md:h-auto`}
+					>
 						<main className="p-2">
 							<section className="mb-8">
 								<h1
 									className={`${styles.heading1} sm:text-3xl`}
 								>
-									Spremni Da Optimizujete Svoj Parking
-									Prostor?
+									Želite da uvećate broj parking mesta?
 								</h1>
 								<p
 									className={`${styles.paragraph} mt-4 font-semibold italic`}
