@@ -24,7 +24,7 @@ const FrontPage = () => {
 						<main className="p-2">
 							<section className="mb-8">
 								<h1
-									className={`${styles.heading1} sm:text-3xl`}
+									className={`${styles.heading1} mb-8 text-6xl md:mb-0 md:text-5xl`}
 								>
 									Želite da uvećate broj parking mesta?
 								</h1>
