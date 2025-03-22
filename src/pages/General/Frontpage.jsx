@@ -19,12 +19,12 @@ const FrontPage = () => {
 						</header>
 					</div>
 					<div
-						className={`${styles.paddingY} relative flex h-[80vh] flex-col justify-center md:h-auto`}
+						className={`${styles.paddingY} relative flex flex-col justify-center md:h-auto`}
 					>
 						<main className="p-2">
 							<section className="mb-8">
 								<h1
-									className={`${styles.heading1} mb-8 text-6xl md:mb-0 md:text-5xl`}
+									className={`${styles.heading1} mb-8 text-4xl md:mb-0 md:text-5xl`}
 								>
 									Želite da uvećate broj parking mesta?
 								</h1>

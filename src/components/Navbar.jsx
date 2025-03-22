@@ -30,7 +30,7 @@ const Navbar = () => {
 			</Link>
 
 			{/* DESKTOP */}
-			<ul className="hidden flex-1 list-none items-center justify-end sm:flex">
+			<ul className="hidden flex-1 list-none items-center justify-end md:flex">
 				{navLinks.map((nav, index) => (
 					<li
 						key={nav.id}
@@ -53,7 +53,7 @@ const Navbar = () => {
 			</ul>
 
 			{/* MOBILE */}
-			<div className="flex flex-1 items-center justify-end sm:hidden">
+			<div className="flex flex-1 items-center justify-end md:hidden">
 				<img
 					src={toggle ? close : menu}
 					alt="menu"
