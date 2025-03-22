@@ -23,6 +23,9 @@ export const theme = {
 		letterSpacing: {
 			custom: '0.15em',
 		},
+		screens: {
+			'mobile-l': '425px',
+		},
 	},
 	screens: {
 		xs: '480px',
